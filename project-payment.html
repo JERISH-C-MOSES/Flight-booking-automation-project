@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JCM Travels | Payment</title>
+    <link rel="stylesheet" href="shared.css" />
+    <link rel="stylesheet" href="project.css" />
+  </head>
+  <body class="project-shell">
+    <div class="container">
+      <header class="project-topbar" id="project-topbar"></header>
+
+      <section class="project-page-header">
+        <div>
+          <p class="project-kicker">Payment</p>
+          <h1>Complete payment and choose fare protection.</h1>
+          <div class="project-chip-row" id="project-search-summary"></div>
+        </div>
+      </section>
+
+      <section class="project-grid-two">
+        <form id="project-payment-form" class="project-panel project-payment-card">
+          <h2 class="project-section-title">Payment Details</h2>
+          <div class="project-field">
+            <legend>Payment Method</legend>
+            <div class="project-radio-group">
+              <label class="project-radio-card"><input type="radio" name="paymentMethod" value="Credit Card" /> Credit Card</label>
+              <label class="project-radio-card"><input type="radio" name="paymentMethod" value="Debit Card" /> Debit Card</label>
+              <label class="project-radio-card"><input type="radio" name="paymentMethod" value="UPI" /> UPI</label>
+            </div>
+          </div>
+          <div class="project-form-grid">
+            <div class="project-field" style="grid-column: span 2;">
+              <label for="payment-card-name">Cardholder Name</label>
+              <input id="payment-card-name" type="text" placeholder="Enter cardholder name" />
+            </div>
+            <div class="project-field" style="grid-column: span 2;">
+              <label for="payment-card-number">Card Number</label>
+              <input id="payment-card-number" type="text" maxlength="16" placeholder="16-digit card number" />
+            </div>
+            <div class="project-field">
+              <label for="payment-expiry">Expiry</label>
+              <input id="payment-expiry" type="text" placeholder="MM/YY" />
+            </div>
+            <div class="project-field">
+              <label for="payment-cvv">CVV</label>
+              <input id="payment-cvv" type="password" maxlength="3" placeholder="CVV" />
+            </div>
+            <div class="project-field" style="grid-column: span 2;">
+              <legend>Refund Plan</legend>
+              <div class="project-radio-group">
+                <label class="project-radio-card"><input type="radio" name="refundPlan" value="refundable" /> Refundable fare</label>
+                <label class="project-radio-card"><input type="radio" name="refundPlan" value="non-refundable" /> Non-refundable saver fare</label>
+              </div>
+            </div>
+          </div>
+          <div class="project-inline" style="margin-top: 1rem;">
+            <button class="project-button warm" type="submit">Pay and Book</button>
+            <a class="project-button secondary" href="project-seats.html">Back to Seats</a>
+          </div>
+          <p class="project-status" id="project-payment-status" aria-live="polite"></p>
+        </form>
+
+        <aside class="project-panel">
+          <h2 class="project-section-title">Fare Summary</h2>
+          <div id="project-payment-summary"></div>
+          <div class="project-banner">
+            Choose refundable or non-refundable fare to test both cancellation and refund scenarios.
+          </div>
+        </aside>
+      </section>
+    </div>
+    <script src="project.js"></script>
+  </body>
+</html>

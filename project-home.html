@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JCM Travels | Search Flights</title>
+    <link rel="stylesheet" href="shared.css" />
+    <link rel="stylesheet" href="project.css" />
+  </head>
+  <body class="project-shell">
+    <div class="container">
+      <header class="project-topbar" id="project-topbar"></header>
+
+      <section class="project-hero">
+        <article class="project-hero-card">
+          <p class="project-kicker">Domestic Search</p>
+          <h1>Search flights across India with rich validation and booking flow.</h1>
+          <p>
+            Choose routes, dates, traveller count, and cabin class. This search
+            step supports both valid and invalid booking scenarios from your test sheet.
+          </p>
+          <div class="project-highlights">
+            <div class="project-highlight">
+              <strong>Air India</strong>
+              <span>full-service routes</span>
+            </div>
+            <div class="project-highlight">
+              <strong>IndiGo</strong>
+              <span>fast domestic options</span>
+            </div>
+            <div class="project-highlight">
+              <strong>Akasa + more</strong>
+              <span>multiple airline filters</span>
+            </div>
+          </div>
+          <div class="project-chip-row" style="margin-top: 1rem;">
+            <span class="project-chip">Air India</span>
+            <span class="project-chip">IndiGo</span>
+            <span class="project-chip">Akasa Air</span>
+            <span class="project-chip">SpiceJet</span>
+            <span class="project-chip">Air India Express</span>
+            <span class="project-chip">Alliance Air</span>
+          </div>
+          <div class="project-visual-card project-visual-card-large">
+            <img class="project-visual" src="assets/project-search-hero.svg" alt="Flight booking search illustration" />
+          </div>
+        </article>
+
+        <article class="project-search-card">
+          <p class="project-kicker">Search Flights</p>
+          <div class="project-mini-strip">
+            <span class="project-tag">Domestic only</span>
+            <span class="project-tag">India destinations</span>
+            <span class="project-tag">Round trip ready</span>
+          </div>
+          <form id="project-search-form" novalidate>
+            <div class="project-radio-group project-trip-type-group" style="margin-bottom: 1rem;">
+              <label class="project-radio-card"><input type="radio" name="tripType" value="one-way" checked /> One way</label>
+              <label class="project-radio-card"><input type="radio" name="tripType" value="round-trip" /> Round trip</label>
+            </div>
+            <div class="project-form-grid project-search-grid">
+              <div class="project-field">
+                <label for="trip-from">From</label>
+                <select id="trip-from" name="from"></select>
+              </div>
+              <div class="project-field">
+                <label for="trip-to">To</label>
+                <select id="trip-to" name="to"></select>
+              </div>
+              <div class="project-field">
+                <label for="trip-date">Departure Date</label>
+                <input id="trip-date" name="departureDate" type="date" />
+              </div>
+              <div class="project-field project-hidden" id="trip-return-wrap">
+                <label for="trip-return-date">Return Date</label>
+                <input id="trip-return-date" name="returnDate" type="date" />
+              </div>
+              <div class="project-field">
+                <label for="trip-travellers">Travellers</label>
+                <select id="trip-travellers" name="travellers">
+                  <option value="1">1 Traveller</option>
+                  <option value="2">2 Travellers</option>
+                  <option value="3">3 Travellers</option>
+                  <option value="4">4 Travellers</option>
+                </select>
+              </div>
+              <div class="project-field project-search-wide">
+                <label for="trip-cabin">Cabin Class</label>
+                <select id="trip-cabin" name="cabinClass">
+                  <option value="Economy">Economy</option>
+                  <option value="Premium Economy">Premium Economy</option>
+                  <option value="Business">Business</option>
+                </select>
+              </div>
+            </div>
+            <div class="project-inline" style="margin-top: 1rem;">
+              <button class="project-button primary" type="submit">Search Flights</button>
+              <a class="project-button secondary" href="project-manage-booking.html">Manage Booking</a>
+            </div>
+            <p class="project-status" id="project-search-status" aria-live="polite"></p>
+          </form>
+        </article>
+      </section>
+    </div>
+    <script src="project.js"></script>
+  </body>
+</html>

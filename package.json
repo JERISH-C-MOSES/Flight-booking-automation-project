@@ -1,0 +1,8 @@
+{
+  "name": "jcm-travels-flight-booking",
+  "version": "1.0.0",
+  "description": "Static JCM Travels flight booking demo for GitHub Pages",
+  "scripts": {
+    "check": "node --check admin.js && node --check project.js"
+  }
+}

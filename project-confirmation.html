@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JCM Travels | Booking Confirmation</title>
+    <link rel="stylesheet" href="shared.css" />
+    <link rel="stylesheet" href="project.css" />
+  </head>
+  <body class="project-shell">
+    <div class="container">
+      <header class="project-topbar" id="project-topbar"></header>
+
+      <section class="project-page-header">
+        <div>
+          <p class="project-kicker">Booking Confirmation</p>
+          <h1>Validate confirmation, cancellation, and refund.</h1>
+          <div class="project-chip-row" id="project-search-summary"></div>
+        </div>
+      </section>
+
+      <section class="project-panel project-confirm-card" id="project-confirmation-card"></section>
+      <div id="project-refund-note"></div>
+      <div class="project-inline" style="margin-top: 1rem;">
+        <button class="project-button ghost" id="project-cancel-booking" type="button">Cancel This Booking</button>
+        <a class="project-button secondary" href="project-manage-booking.html">Go to Manage Booking</a>
+        <a class="project-button primary" href="project-home.html">Book Another Flight</a>
+      </div>
+      <p class="project-status" id="project-confirmation-status" aria-live="polite"></p>
+    </div>
+    <script src="project.js"></script>
+  </body>
+</html>

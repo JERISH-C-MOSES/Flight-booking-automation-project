@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JCM Travels | Sign Up</title>
+    <link rel="stylesheet" href="shared.css" />
+    <link rel="stylesheet" href="project.css" />
+  </head>
+  <body class="project-shell">
+    <div class="container">
+      <section class="project-hero">
+        <article class="project-hero-card">
+          <p class="project-kicker">Create Account</p>
+          <h1>Classic signup flow for your testing project.</h1>
+          <p>
+            Register a new website user with username, email, password, and
+            phone number, then use that same account on the login page.
+          </p>
+          <div class="project-highlights">
+            <div class="project-highlight">
+              <strong>Username</strong>
+              <span>used for sign in</span>
+            </div>
+            <div class="project-highlight">
+              <strong>Email</strong>
+              <span>used for booking lookup</span>
+            </div>
+            <div class="project-highlight">
+              <strong>Phone</strong>
+              <span>validation ready</span>
+            </div>
+          </div>
+          <div class="project-visual-card">
+            <img class="project-visual" src="assets/project-auth-hero.svg" alt="Signup travel illustration" />
+          </div>
+        </article>
+
+        <article class="project-search-card project-auth-card">
+          <p class="project-kicker">Sign Up</p>
+          <h2 style="margin: 0 0 0.7rem;">Create your JCM Travels account</h2>
+          <div class="project-mini-strip">
+            <span class="project-tag">Username + password</span>
+            <span class="project-tag">Email + phone</span>
+          </div>
+          <form id="project-signup-form" class="project-form-grid" novalidate style="grid-template-columns: 1fr;">
+            <div class="project-field">
+              <label for="signup-username">Username</label>
+              <input id="signup-username" type="text" placeholder="Enter username" />
+            </div>
+            <div class="project-field">
+              <label for="signup-email">Email</label>
+              <input id="signup-email" type="email" placeholder="Enter email" />
+            </div>
+            <div class="project-field">
+              <label for="signup-password">Password</label>
+              <input id="signup-password" type="password" placeholder="Create password" />
+            </div>
+            <div class="project-field">
+              <label for="signup-phone">Phone Number</label>
+              <input id="signup-phone" type="tel" placeholder="10-digit phone number" />
+            </div>
+            <div class="project-inline">
+              <button class="project-button primary" type="submit">Create Account</button>
+              <a class="project-button secondary" href="project-login.html">Back to Login</a>
+            </div>
+            <p class="project-status" id="project-signup-status" aria-live="polite"></p>
+          </form>
+        </article>
+      </section>
+    </div>
+    <script src="project.js"></script>
+  </body>
+</html>

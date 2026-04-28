@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JCM Travels | Project Login</title>
+    <link rel="stylesheet" href="shared.css" />
+    <link rel="stylesheet" href="project.css" />
+  </head>
+  <body class="project-shell">
+    <div class="container">
+      <section class="project-hero">
+        <article class="project-hero-card">
+          <p class="project-kicker">Flight Booking Project</p>
+          <h1>Domestic travel booking that feels like a real airline app.</h1>
+          <p>
+            This project area is designed for end-to-end testing with login,
+            search, filters, flight selection, passenger details, seat blocking,
+            payment, confirmation, cancellation, and refund scenarios.
+          </p>
+          <div class="project-chip-row" id="project-search-summary">
+            <span class="project-chip">India only</span>
+            <span class="project-chip">6+ airlines</span>
+            <span class="project-chip">MakeMyTrip-inspired flow</span>
+          </div>
+          <div class="project-highlights">
+            <div class="project-highlight">
+              <strong>17</strong>
+              <span>test scenarios covered</span>
+            </div>
+            <div class="project-highlight">
+              <strong>6</strong>
+              <span>different airlines</span>
+            </div>
+            <div class="project-highlight">
+              <strong>India</strong>
+              <span>domestic routes only</span>
+            </div>
+          </div>
+          <div class="project-visual-card">
+            <img class="project-visual" src="assets/project-auth-hero.svg" alt="Travel dashboard illustration" />
+          </div>
+        </article>
+
+        <article class="project-search-card project-auth-card">
+          <p class="project-kicker">Project Login</p>
+          <h2 style="margin: 0 0 0.7rem;">Sign in to JCM Travels</h2>
+          <p class="project-helper">
+            Use the same credentials as your Selenium practice portal. After
+            login, the app opens the search workspace.
+          </p>
+          <div class="project-mini-strip">
+            <span class="project-tag">Secure sign in</span>
+            <span class="project-tag">Flight search access</span>
+          </div>
+          <p class="project-status" id="project-storage-status" aria-live="polite"></p>
+          <form id="project-login-form" class="project-form-grid" novalidate style="grid-template-columns: 1fr;">
+            <div class="project-field">
+              <label for="project-username">Username</label>
+              <input id="project-username" name="projectUsername" type="text" placeholder="JERISH" />
+            </div>
+            <div class="project-field">
+              <label for="project-password">Password</label>
+              <input id="project-password" name="projectPassword" type="password" placeholder="Jerish@123" />
+            </div>
+            <div class="project-inline">
+              <button class="project-button primary" id="project-login-button" type="submit">Login</button>
+              <button class="project-button secondary" type="reset">Reset</button>
+            </div>
+            <p class="project-status" id="project-login-status" aria-live="polite"></p>
+            <p class="project-helper project-link-note" style="margin: 0;">
+              New here?
+              <a href="project-signup.html" style="color: #0b63ce; font-weight: 700;">Create an account</a>
+            </p>
+          </form>
+        </article>
+      </section>
+      <p class="project-footer-note">Built for realistic Selenium automation across login, booking, and post-booking flows.</p>
+    </div>
+    <script src="project.js"></script>
+  </body>
+</html>

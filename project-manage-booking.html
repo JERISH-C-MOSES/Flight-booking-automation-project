@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JCM Travels | Manage Booking</title>
+    <link rel="stylesheet" href="shared.css" />
+    <link rel="stylesheet" href="project.css" />
+  </head>
+  <body class="project-shell">
+    <div class="container">
+      <header class="project-topbar" id="project-topbar"></header>
+
+      <section class="project-page-header">
+        <div>
+          <p class="project-kicker">Manage Booking</p>
+          <h1>Search, cancel, and verify refund status.</h1>
+          <div class="project-chip-row" id="project-search-summary"></div>
+        </div>
+      </section>
+
+      <section class="project-grid-two">
+        <form id="project-manage-form" class="project-panel">
+          <h2 class="project-section-title">Find a Booking</h2>
+          <div class="project-form-grid" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
+            <div class="project-field">
+              <label for="manage-booking-id">Booking ID</label>
+              <input id="manage-booking-id" type="text" placeholder="Enter booking ID" />
+            </div>
+            <div class="project-field">
+              <label for="manage-email">Passenger Email</label>
+              <input id="manage-email" type="email" placeholder="Enter passenger email" />
+            </div>
+          </div>
+          <div class="project-inline" style="margin-top: 1rem;">
+            <button class="project-button primary" type="submit">Find Booking</button>
+            <a class="project-button secondary" href="project-home.html">Back to Search</a>
+          </div>
+          <p class="project-status" id="project-manage-status" aria-live="polite"></p>
+        </form>
+
+        <aside class="project-panel">
+          <h2 class="project-section-title">What You Can Test Here</h2>
+          <div class="project-table-card">
+            <table class="project-table">
+              <tbody>
+                <tr><th>Confirmed booking</th><td>View booking details and verify current status.</td></tr>
+                <tr><th>Refundable ticket</th><td>Cancel and validate refund initiation.</td></tr>
+                <tr><th>Non-refundable ticket</th><td>Cancel and verify zero-refund scenario.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </aside>
+      </section>
+
+      <section id="project-booking-list" class="project-flight-list" style="margin-top: 1rem;"></section>
+    </div>
+    <script src="project.js"></script>
+  </body>
+</html>

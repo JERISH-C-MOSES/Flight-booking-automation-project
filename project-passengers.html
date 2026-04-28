@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JCM Travels | Traveller Details</title>
+    <link rel="stylesheet" href="shared.css" />
+    <link rel="stylesheet" href="project.css" />
+  </head>
+  <body class="project-shell">
+    <div class="container">
+      <header class="project-topbar" id="project-topbar"></header>
+
+      <section class="project-page-header">
+        <div>
+          <p class="project-kicker">Traveller Details</p>
+          <h1>Enter passenger details with full validation.</h1>
+          <div class="project-chip-row" id="project-search-summary"></div>
+        </div>
+      </section>
+
+      <section class="project-grid-two">
+        <form id="project-passenger-form" class="project-panel">
+          <div id="project-passenger-forms"></div>
+          <div class="project-inline" style="margin-top: 1rem;">
+            <button class="project-button primary" type="submit">Continue to Seats</button>
+            <a class="project-button secondary" href="project-results.html">Back to Results</a>
+          </div>
+          <p class="project-status" id="project-passenger-status" aria-live="polite"></p>
+        </form>
+
+        <aside class="project-panel">
+          <h2 class="project-section-title">Selected Flight</h2>
+          <div id="project-selected-flight" class="project-summary-list"></div>
+          <div class="project-banner">
+            Mandatory validation is active here for names, age, mobile, and email.
+          </div>
+        </aside>
+      </section>
+    </div>
+    <script src="project.js"></script>
+  </body>
+</html>

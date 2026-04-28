@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JCM Travels | Admin Dashboard</title>
+    <link rel="stylesheet" href="shared.css" />
+    <link rel="stylesheet" href="project.css" />
+  </head>
+  <body class="project-shell">
+    <div class="container">
+      <header class="project-topbar">
+        <div class="project-brand">
+          <div class="project-badge">AD</div>
+          <div class="project-brand-copy">
+            <strong>Admin Dashboard</strong>
+            <span>Frontend activity monitor</span>
+          </div>
+        </div>
+        <div class="project-actions">
+          <button class="project-button ghost small" id="admin-logout" type="button">Logout</button>
+        </div>
+      </header>
+
+      <section class="project-page-header">
+        <div>
+          <p class="project-kicker">Overview</p>
+          <h1>See what is happening on the website.</h1>
+        </div>
+      </section>
+
+      <section class="project-highlights" id="admin-summary-cards"></section>
+
+      <section class="project-grid-two" style="margin-top: 1rem;">
+        <article class="project-panel">
+          <h2 class="project-section-title">Recent Events</h2>
+          <div class="table-wrap">
+            <table class="project-table">
+              <thead>
+                <tr>
+                  <th>Time</th>
+                  <th>App</th>
+                  <th>Type</th>
+                  <th>User</th>
+                  <th>Details</th>
+                </tr>
+              </thead>
+              <tbody id="admin-events-body"></tbody>
+            </table>
+          </div>
+        </article>
+
+        <article class="project-panel">
+          <h2 class="project-section-title">Users</h2>
+          <div class="table-wrap">
+            <table class="project-table">
+              <thead>
+                <tr>
+                  <th>Username</th>
+                  <th>Email</th>
+                  <th>Phone</th>
+                  <th>Created</th>
+                </tr>
+              </thead>
+              <tbody id="admin-users-body"></tbody>
+            </table>
+          </div>
+        </article>
+      </section>
+
+      <section class="project-panel" style="margin-top: 1rem;">
+        <h2 class="project-section-title">Bookings</h2>
+        <div class="table-wrap">
+          <table class="project-table">
+            <thead>
+              <tr>
+                <th>Booking ID</th>
+                <th>Owner</th>
+                <th>Route</th>
+                <th>Status</th>
+                <th>Total</th>
+                <th>Updated</th>
+              </tr>
+            </thead>
+            <tbody id="admin-bookings-body"></tbody>
+          </table>
+        </div>
+      </section>
+      <p class="project-status" id="admin-dashboard-status" aria-live="polite"></p>
+    </div>
+    <script src="admin.js"></script>
+  </body>
+</html>

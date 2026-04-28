@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JCM Travels | Admin Login</title>
+    <link rel="stylesheet" href="shared.css" />
+    <link rel="stylesheet" href="project.css" />
+  </head>
+  <body class="project-shell project-admin-shell">
+    <div class="container">
+      <section class="project-hero">
+        <article class="project-hero-card">
+          <p class="project-kicker">Admin Demo</p>
+          <h1>Inspect activity across Selenium practice and the flight project.</h1>
+          <p>
+            This admin area shows what is happening on the website: signups,
+            logins, sessions, bookings, and recent activity events.
+          </p>
+          <div class="project-visual-card">
+            <img class="project-visual" src="assets/project-auth-hero.svg" alt="Admin dashboard illustration" />
+          </div>
+        </article>
+
+        <article class="project-search-card project-auth-card">
+          <p class="project-kicker">Admin Login</p>
+          <h2 class="project-auth-title">Sign in as admin</h2>
+          <p class="project-helper">
+            Use the demo admin credentials to inspect users, events, sessions,
+            and bookings.
+          </p>
+
+          <form id="admin-login-form" class="admin-auth-form" novalidate>
+            <div class="admin-auth-field">
+              <label for="admin-username">Username</label>
+              <input id="admin-username" type="text" placeholder="JERISH" />
+            </div>
+
+            <div class="admin-auth-field">
+              <label for="admin-password">Password</label>
+              <div class="password-field admin-password-field">
+                <input id="admin-password" type="password" placeholder="Orange@123" />
+                <button
+                  class="password-toggle"
+                  type="button"
+                  data-password-toggle="admin-password"
+                  aria-label="Show password"
+                  aria-pressed="false"
+                >
+                  <span class="password-toggle-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" role="presentation" focusable="false">
+                      <path d="M12 5C6.5 5 2.1 8.4 1 12c1.1 3.6 5.5 7 11 7s9.9-3.4 11-7c-1.1-3.6-5.5-7-11-7Zm0 11a4 4 0 1 1 0-8 4 4 0 0 1 0 8Zm0-2.2a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6Z" fill="currentColor" />
+                    </svg>
+                  </span>
+                </button>
+              </div>
+            </div>
+
+            <div class="admin-auth-actions">
+              <button class="project-button primary" type="submit">Login</button>
+              <a class="project-button ghost" href="index.html">Back to Portal</a>
+            </div>
+
+            <p class="project-status" id="admin-login-status" aria-live="polite"></p>
+          </form>
+        </article>
+      </section>
+    </div>
+    <script src="admin.js"></script>
+  </body>
+</html>
