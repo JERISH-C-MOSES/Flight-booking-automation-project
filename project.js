@@ -988,6 +988,7 @@ const initProjectSignup = () => {
     setLocalJson(projectStorageKeys.users, users);
     trackProjectEvent("signup", username);
     setProjectStatus("project-signup-status", "Account created successfully. You can sign in now.", "success");
+    window.alert("Account created successfully. You can sign in now.");
     form.reset();
   });
 };
