@@ -22,7 +22,7 @@
       <section class="project-grid-two">
         <form id="project-manage-form" class="project-panel">
           <h2 class="project-section-title">Find a Booking</h2>
-          <div class="project-form-grid" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
+          <div class="project-form-grid">
             <div class="project-field">
               <label for="manage-booking-id">Booking ID</label>
               <input id="manage-booking-id" type="text" placeholder="Enter booking ID" />
@@ -32,7 +32,7 @@
               <input id="manage-email" type="email" placeholder="Enter passenger email" />
             </div>
           </div>
-          <div class="project-inline" style="margin-top: 1rem;">
+          <div class="project-inline project-form-actions">
             <button class="project-button primary" type="submit">Find Booking</button>
             <a class="project-button secondary" href="project-home.html">Back to Search</a>
           </div>
@@ -53,7 +53,7 @@
         </aside>
       </section>
 
-      <section id="project-booking-list" class="project-flight-list" style="margin-top: 1rem;"></section>
+      <section id="project-booking-list" class="project-flight-list project-spaced"></section>
     </div>
     <script src="project.js"></script>
   </body>

@@ -21,7 +21,6 @@
           <div class="project-chip-row" id="project-search-summary">
             <span class="project-chip">India only</span>
             <span class="project-chip">6+ airlines</span>
-            <span class="project-chip">MakeMyTrip-inspired flow</span>
           </div>
           <div class="project-highlights">
             <div class="project-highlight">
@@ -37,14 +36,11 @@
               <span>domestic routes only</span>
             </div>
           </div>
-          <div class="project-visual-card">
-            <img class="project-visual" src="assets/project-auth-hero.svg" alt="Travel dashboard illustration" />
-          </div>
         </article>
 
         <article class="project-search-card project-auth-card">
           <p class="project-kicker">Project Login</p>
-          <h2 style="margin: 0 0 0.7rem;">Sign in to JCM Travels</h2>
+          <h2>Sign in to JCM Travels</h2>
           <p class="project-helper">
             Use the same credentials as your Selenium practice portal. After
             login, the app opens the search workspace.
@@ -53,24 +49,38 @@
             <span class="project-tag">Secure sign in</span>
             <span class="project-tag">Flight search access</span>
           </div>
-          <p class="project-status" id="project-storage-status" aria-live="polite"></p>
-          <form id="project-login-form" class="project-form-grid" novalidate style="grid-template-columns: 1fr;">
+          <form id="project-login-form" class="project-form-grid" novalidate>
             <div class="project-field">
               <label for="project-username">Username</label>
               <input id="project-username" name="projectUsername" type="text" placeholder="JERISH" />
             </div>
             <div class="project-field">
               <label for="project-password">Password</label>
-              <input id="project-password" name="projectPassword" type="password" placeholder="Jerish@123" />
+              <div class="password-field">
+                <input id="project-password" name="projectPassword" type="password" placeholder="Jerish@123" />
+                <button
+                  class="password-toggle"
+                  type="button"
+                  data-password-toggle="project-password"
+                  aria-label="Show password"
+                  aria-pressed="false"
+                >
+                  <span class="password-toggle-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" role="presentation" focusable="false">
+                      <path d="M12 5C6.5 5 2.1 8.4 1 12c1.1 3.6 5.5 7 11 7s9.9-3.4 11-7c-1.1-3.6-5.5-7-11-7Zm0 11a4 4 0 1 1 0-8 4 4 0 0 1 0 8Zm0-2.2a1.8 1.8 0 1 0 0-3.6 1.8 1.8 0 0 0 0 3.6Z" fill="currentColor" />
+                    </svg>
+                  </span>
+                </button>
+              </div>
             </div>
             <div class="project-inline">
               <button class="project-button primary" id="project-login-button" type="submit">Login</button>
               <button class="project-button secondary" type="reset">Reset</button>
             </div>
             <p class="project-status" id="project-login-status" aria-live="polite"></p>
-            <p class="project-helper project-link-note" style="margin: 0;">
+            <p class="project-helper project-link-note">
               New here?
-              <a href="project-signup.html" style="color: #0b63ce; font-weight: 700;">Create an account</a>
+              <a href="project-signup.html">Create an account</a>
             </p>
           </form>
         </article>

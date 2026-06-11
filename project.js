@@ -232,8 +232,453 @@ const flights = [
     terminal: "T2",
     refundable: true,
     cabin: "Regional Flex"
+  },
+  {
+    id: "FL-AI-226",
+    airline: "Air India",
+    airlineCode: "AI",
+    from: "Mumbai",
+    to: "Delhi",
+    departTime: "14:20",
+    arriveTime: "16:35",
+    duration: "2h 15m",
+    stops: 0,
+    price: 6480,
+    baggage: "15kg cabin • 20kg check-in",
+    terminal: "T2",
+    refundable: true,
+    cabin: "Economy Flex"
+  },
+  {
+    id: "FL-QP-144",
+    airline: "Akasa Air",
+    airlineCode: "QP",
+    from: "Mumbai",
+    to: "Delhi",
+    departTime: "21:15",
+    arriveTime: "23:30",
+    duration: "2h 15m",
+    stops: 0,
+    price: 5320,
+    baggage: "7kg cabin • 15kg check-in",
+    terminal: "T1",
+    refundable: false,
+    cabin: "Economy Lite"
+  },
+  {
+    id: "FL-AI-733",
+    airline: "Air India",
+    airlineCode: "AI",
+    from: "Delhi",
+    to: "Mumbai",
+    departTime: "06:30",
+    arriveTime: "08:45",
+    duration: "2h 15m",
+    stops: 0,
+    price: 6250,
+    baggage: "15kg cabin • 20kg check-in",
+    terminal: "T3",
+    refundable: true,
+    cabin: "Economy Flex"
+  },
+  {
+    id: "FL-SG-220",
+    airline: "SpiceJet",
+    airlineCode: "SG",
+    from: "Delhi",
+    to: "Mumbai",
+    departTime: "12:45",
+    arriveTime: "15:05",
+    duration: "2h 20m",
+    stops: 0,
+    price: 5140,
+    baggage: "7kg cabin • 15kg check-in",
+    terminal: "T1",
+    refundable: false,
+    cabin: "SpiceSaver"
+  },
+  {
+    id: "FL-6E-515",
+    airline: "IndiGo",
+    airlineCode: "6E",
+    from: "Mumbai",
+    to: "Bengaluru",
+    departTime: "16:25",
+    arriveTime: "18:15",
+    duration: "1h 50m",
+    stops: 0,
+    price: 4620,
+    baggage: "7kg cabin • 15kg check-in",
+    terminal: "T1",
+    refundable: false,
+    cabin: "Saver"
+  },
+  {
+    id: "FL-AI-889",
+    airline: "Air India",
+    airlineCode: "AI",
+    from: "Bengaluru",
+    to: "Mumbai",
+    departTime: "08:10",
+    arriveTime: "10:00",
+    duration: "1h 50m",
+    stops: 0,
+    price: 4980,
+    baggage: "15kg cabin • 20kg check-in",
+    terminal: "T2",
+    refundable: true,
+    cabin: "Economy Flex"
+  },
+  {
+    id: "FL-QP-355",
+    airline: "Akasa Air",
+    airlineCode: "QP",
+    from: "Bengaluru",
+    to: "Mumbai",
+    departTime: "19:05",
+    arriveTime: "20:55",
+    duration: "1h 50m",
+    stops: 0,
+    price: 4380,
+    baggage: "7kg cabin • 15kg check-in",
+    terminal: "T1",
+    refundable: false,
+    cabin: "Economy Lite"
+  },
+  {
+    id: "FL-6E-932",
+    airline: "IndiGo",
+    airlineCode: "6E",
+    from: "Bengaluru",
+    to: "Hyderabad",
+    departTime: "12:05",
+    arriveTime: "13:20",
+    duration: "1h 15m",
+    stops: 0,
+    price: 3890,
+    baggage: "7kg cabin • 15kg check-in",
+    terminal: "T1",
+    refundable: false,
+    cabin: "Saver"
+  },
+  {
+    id: "FL-IX-702",
+    airline: "Air India Express",
+    airlineCode: "IX",
+    from: "Hyderabad",
+    to: "Bengaluru",
+    departTime: "20:15",
+    arriveTime: "21:30",
+    duration: "1h 15m",
+    stops: 0,
+    price: 3710,
+    baggage: "7kg cabin • 20kg check-in",
+    terminal: "T3",
+    refundable: true,
+    cabin: "Express Value"
+  },
+  {
+    id: "FL-6E-284",
+    airline: "IndiGo",
+    airlineCode: "6E",
+    from: "Chennai",
+    to: "Kochi",
+    departTime: "07:35",
+    arriveTime: "08:50",
+    duration: "1h 15m",
+    stops: 0,
+    price: 3480,
+    baggage: "7kg cabin • 15kg check-in",
+    terminal: "T1",
+    refundable: false,
+    cabin: "Saver"
+  },
+  {
+    id: "FL-IX-622",
+    airline: "Air India Express",
+    airlineCode: "IX",
+    from: "Kochi",
+    to: "Chennai",
+    departTime: "09:40",
+    arriveTime: "10:55",
+    duration: "1h 15m",
+    stops: 0,
+    price: 3640,
+    baggage: "7kg cabin • 20kg check-in",
+    terminal: "T3",
+    refundable: true,
+    cabin: "Express Value"
+  },
+  {
+    id: "FL-SG-512",
+    airline: "SpiceJet",
+    airlineCode: "SG",
+    from: "Mumbai",
+    to: "Goa",
+    departTime: "07:20",
+    arriveTime: "08:35",
+    duration: "1h 15m",
+    stops: 0,
+    price: 4320,
+    baggage: "7kg cabin • 15kg check-in",
+    terminal: "T1",
+    refundable: false,
+    cabin: "SpiceSaver"
+  },
+  {
+    id: "FL-9I-208",
+    airline: "Alliance Air",
+    airlineCode: "9I",
+    from: "Goa",
+    to: "Mumbai",
+    departTime: "17:25",
+    arriveTime: "18:45",
+    duration: "1h 20m",
+    stops: 0,
+    price: 4140,
+    baggage: "7kg cabin • 15kg check-in",
+    terminal: "T2",
+    refundable: true,
+    cabin: "Regional Flex"
+  },
+  {
+    id: "FL-AI-318",
+    airline: "Air India",
+    airlineCode: "AI",
+    from: "Kolkata",
+    to: "Jaipur",
+    departTime: "06:50",
+    arriveTime: "09:45",
+    duration: "2h 55m",
+    stops: 0,
+    price: 5770,
+    baggage: "15kg cabin • 20kg check-in",
+    terminal: "T2",
+    refundable: true,
+    cabin: "Economy Flex"
+  },
+  {
+    id: "FL-6E-690",
+    airline: "IndiGo",
+    airlineCode: "6E",
+    from: "Jaipur",
+    to: "Kolkata",
+    departTime: "18:35",
+    arriveTime: "21:25",
+    duration: "2h 50m",
+    stops: 0,
+    price: 5390,
+    baggage: "7kg cabin • 15kg check-in",
+    terminal: "T1",
+    refundable: false,
+    cabin: "Saver"
+  },
+  {
+    id: "FL-QP-744",
+    airline: "Akasa Air",
+    airlineCode: "QP",
+    from: "Delhi",
+    to: "Pune",
+    departTime: "08:55",
+    arriveTime: "11:00",
+    duration: "2h 05m",
+    stops: 0,
+    price: 4860,
+    baggage: "7kg cabin • 15kg check-in",
+    terminal: "T1",
+    refundable: false,
+    cabin: "Economy Lite"
+  },
+  {
+    id: "FL-AI-556",
+    airline: "Air India",
+    airlineCode: "AI",
+    from: "Pune",
+    to: "Delhi",
+    departTime: "19:30",
+    arriveTime: "21:40",
+    duration: "2h 10m",
+    stops: 0,
+    price: 5210,
+    baggage: "15kg cabin • 20kg check-in",
+    terminal: "T2",
+    refundable: true,
+    cabin: "Economy Flex"
+  },
+  {
+    id: "FL-9I-765",
+    airline: "Alliance Air",
+    airlineCode: "9I",
+    from: "Lucknow",
+    to: "Delhi",
+    departTime: "16:05",
+    arriveTime: "17:20",
+    duration: "1h 15m",
+    stops: 0,
+    price: 3440,
+    baggage: "7kg cabin • 15kg check-in",
+    terminal: "T2",
+    refundable: true,
+    cabin: "Regional Flex"
+  },
+  {
+    id: "FL-6E-188",
+    airline: "IndiGo",
+    airlineCode: "6E",
+    from: "Delhi",
+    to: "Lucknow",
+    departTime: "21:00",
+    arriveTime: "22:10",
+    duration: "1h 10m",
+    stops: 0,
+    price: 3280,
+    baggage: "7kg cabin • 15kg check-in",
+    terminal: "T1",
+    refundable: false,
+    cabin: "Saver"
+  },
+  {
+    id: "FL-SG-448",
+    airline: "SpiceJet",
+    airlineCode: "SG",
+    from: "Ahmedabad",
+    to: "Goa",
+    departTime: "10:30",
+    arriveTime: "12:05",
+    duration: "1h 35m",
+    stops: 0,
+    price: 4120,
+    baggage: "7kg cabin • 15kg check-in",
+    terminal: "T1",
+    refundable: false,
+    cabin: "SpiceSaver"
+  },
+  {
+    id: "FL-IX-260",
+    airline: "Air India Express",
+    airlineCode: "IX",
+    from: "Goa",
+    to: "Ahmedabad",
+    departTime: "14:45",
+    arriveTime: "16:20",
+    duration: "1h 35m",
+    stops: 0,
+    price: 4290,
+    baggage: "7kg cabin • 20kg check-in",
+    terminal: "T3",
+    refundable: true,
+    cabin: "Express Value"
   }
 ];
+
+const airlineProfiles = [
+  {
+    airline: "Air India",
+    airlineCode: "AI",
+    baggage: "15kg cabin • 20kg check-in",
+    refundable: true,
+    cabin: "Economy Flex"
+  },
+  {
+    airline: "IndiGo",
+    airlineCode: "6E",
+    baggage: "7kg cabin • 15kg check-in",
+    refundable: false,
+    cabin: "Saver"
+  },
+  {
+    airline: "Akasa Air",
+    airlineCode: "QP",
+    baggage: "7kg cabin • 15kg check-in",
+    refundable: false,
+    cabin: "Economy Lite"
+  },
+  {
+    airline: "SpiceJet",
+    airlineCode: "SG",
+    baggage: "7kg cabin • 15kg check-in",
+    refundable: false,
+    cabin: "SpiceSaver"
+  },
+  {
+    airline: "Air India Express",
+    airlineCode: "IX",
+    baggage: "7kg cabin • 20kg check-in",
+    refundable: true,
+    cabin: "Express Value"
+  },
+  {
+    airline: "Alliance Air",
+    airlineCode: "9I",
+    baggage: "7kg cabin • 15kg check-in",
+    refundable: true,
+    cabin: "Regional Flex"
+  }
+];
+
+const generatedDepartureTimes = [
+  "05:45",
+  "07:10",
+  "08:35",
+  "10:20",
+  "12:05",
+  "13:50",
+  "15:25",
+  "17:40",
+  "19:15",
+  "21:05"
+];
+
+const generatedDurations = [
+  { label: "1h 05m", minutes: 65 },
+  { label: "1h 20m", minutes: 80 },
+  { label: "1h 35m", minutes: 95 },
+  { label: "1h 50m", minutes: 110 },
+  { label: "2h 05m", minutes: 125 },
+  { label: "2h 20m", minutes: 140 },
+  { label: "2h 45m", minutes: 165 },
+  { label: "3h 10m", minutes: 190 },
+  { label: "3h 35m", minutes: 215 },
+  { label: "4h 00m", minutes: 240 }
+];
+
+const addMinutesToTime = (time, minutesToAdd) => {
+  const [hours, minutes] = time.split(":").map(Number);
+  const total = hours * 60 + minutes + minutesToAdd;
+  const nextHours = Math.floor((total % 1440) / 60);
+  const nextMinutes = total % 60;
+  return `${String(nextHours).padStart(2, "0")}:${String(nextMinutes).padStart(2, "0")}`;
+};
+
+const generatedFlights = cities
+  .flatMap((from) => cities.filter((to) => to !== from).map((to) => ({ from, to })))
+  .slice(0, 100)
+  .map((route, index) => {
+    const airline = airlineProfiles[index % airlineProfiles.length];
+    const departTime = generatedDepartureTimes[index % generatedDepartureTimes.length];
+    const duration = generatedDurations[(index + route.from.length + route.to.length) % generatedDurations.length];
+    const stops = index % 9 === 0 ? 1 : 0;
+    const price = 3200 + ((index * 370 + route.from.length * 95 + route.to.length * 80) % 5200) + stops * 450;
+
+    return {
+      id: `FL-${airline.airlineCode}-G${String(index + 1).padStart(3, "0")}`,
+      airline: airline.airline,
+      airlineCode: airline.airlineCode,
+      from: route.from,
+      to: route.to,
+      departTime,
+      arriveTime: addMinutesToTime(departTime, duration.minutes + stops * 40),
+      duration: stops ? `${duration.label} + stop` : duration.label,
+      stops,
+      price,
+      baggage: airline.baggage,
+      terminal: `T${(index % 4) + 1}`,
+      refundable: airline.refundable,
+      cabin: airline.cabin
+    };
+  });
+
+flights.push(...generatedFlights);
 
 const bookedSeatIds = ["2B", "3D", "4A", "5F", "6C", "8E"];
 const seatLayout = [
@@ -319,6 +764,11 @@ const setLocalJson = (key, value) => {
 const setProjectStatus = (id, text, level = "") => {
   const node = document.getElementById(id);
   if (!node) {
+    return;
+  }
+  if (level === "success") {
+    node.textContent = "";
+    node.className = "project-status";
     return;
   }
   node.textContent = text;
@@ -411,7 +861,6 @@ const buildTopbar = (activePage) => {
 
   topbar.innerHTML = `
     <div class="project-brand">
-      <div class="project-badge">JT</div>
       <div class="project-brand-copy">
         <strong>JCM Travels</strong>
         <span>Domestic flight booking for India</span>
@@ -429,13 +878,29 @@ const initProjectCommon = () => {
   document.querySelector("[data-project-logout]")?.addEventListener("click", projectLogout);
 };
 
+const initPasswordToggles = () => {
+  document.querySelectorAll("[data-password-toggle]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const input = document.getElementById(button.dataset.passwordToggle);
+      if (!input) {
+        return;
+      }
+
+      const showPassword = input.type === "password";
+      input.type = showPassword ? "text" : "password";
+      button.setAttribute("aria-label", showPassword ? "Hide password" : "Show password");
+      button.setAttribute("aria-pressed", showPassword ? "true" : "false");
+      button.classList.toggle("is-active", showPassword);
+    });
+  });
+};
+
 const initProjectLogin = () => {
   const form = document.getElementById("project-login-form");
   if (!form) {
     return;
   }
-
-  setProjectStatus("project-storage-status", "Frontend demo mode. Data is saved in this browser.", "success");
+  initPasswordToggles();
 
   form.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -482,6 +947,7 @@ const initProjectSignup = () => {
   if (!form) {
     return;
   }
+  initPasswordToggles();
 
   form.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -751,7 +1217,7 @@ const renderSelectionBanner = () => {
   const returning = getFlightById(selection.returnFlightId);
   banner.innerHTML = `
     <div class="project-banner">
-      <div class="project-meta-row" style="margin-top: 0; padding-top: 0; border-top: none;">
+      <div class="project-meta-row project-meta-row-plain">
         <div>
           <strong>Round-trip selection</strong>
           <div class="project-helper">
@@ -853,7 +1319,7 @@ const renderFlights = () => {
   const outboundSection = outboundFlights.length
     ? `
       <section class="project-flight-list-section">
-        <div class="project-meta-row" style="margin-top: 0; padding-top: 0; border-top: none;">
+        <div class="project-meta-row project-meta-row-plain">
           <strong>Onward flights</strong>
           <span>${search.from} to ${search.to}</span>
         </div>
@@ -1353,7 +1819,7 @@ const renderConfirmation = () => {
   node.innerHTML = `
     <div class="project-confirm-icon">✓</div>
     <p class="project-kicker">Booking confirmed</p>
-    <h1 style="font-size: clamp(2.2rem, 3.5vw, 3.5rem); margin: 0;">${booking.bookingId}</h1>
+    <h1 class="project-confirm-title">${booking.bookingId}</h1>
     <p>Your domestic flight is booked successfully. Use this page and Manage Booking to continue cancellation and refund testing.</p>
     <div class="project-summary-grid">
       <div class="project-panel">
@@ -1447,7 +1913,7 @@ const renderManageBookings = () => {
       const flight = getFlightById(booking.outboundFlightId);
       return `
         <article class="project-manage-card">
-          <div class="project-meta-row" style="margin-top: 0; padding-top: 0; border-top: none;">
+          <div class="project-meta-row project-meta-row-plain">
             <div>
               <strong>${booking.bookingId}</strong>
               <div class="project-helper">${flight.from} to ${flight.to} • ${formatDate(booking.search.departureDate)}</div>
@@ -1459,7 +1925,7 @@ const renderManageBookings = () => {
             <div class="project-summary-row"><strong>Travellers</strong><span>${booking.passengers.length} • Seats ${booking.seats.join(", ")}</span></div>
             <div class="project-summary-row"><strong>Fare policy</strong><span>${booking.refundable ? `Refund ${formatCurrency(booking.refundAmount)}` : "Non-refundable"}</span></div>
           </div>
-          <div class="project-flight-actions" style="margin-top: 1rem;">
+          <div class="project-flight-actions project-card-actions">
             <button class="project-button secondary small" type="button" data-view-booking="${booking.bookingId}">View details</button>
             <button class="project-button ghost small" type="button" data-cancel-booking="${booking.bookingId}" ${booking.status === "Cancelled" ? "disabled" : ""}>Cancel booking</button>
           </div>
