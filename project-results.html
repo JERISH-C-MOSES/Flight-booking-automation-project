@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JCM Travels | Flight Results</title>
     <link rel="stylesheet" href="shared.css?v=20260612" />
-    <link rel="stylesheet" href="project.css?v=20260612" />
+    <link rel="stylesheet" href="project.css?v=20260613j" />
   </head>
   <body class="project-shell">
     <div class="container">
       <header class="project-topbar" id="project-topbar"></header>
 
-      <section class="project-page-header">
+      <section class="project-page-header project-results-header">
         <div>
           <p class="project-kicker">Flight Results</p>
           <h1>Compare, filter, and select flights.</h1>
@@ -22,9 +22,11 @@
 
       <section class="project-results-hero">
         <div class="project-panel">
-          <p class="project-kicker">Smart Results</p>
-          <h2 class="project-section-title">Filter by price, stops, time, and airline.</h2>
-          <p>Use this page for realistic result selection, filter testing, fare locking, and multi-step booking validation.</p>
+          <div>
+            <p class="project-kicker">Smart Results</p>
+            <h2 class="project-section-title">Filter by price, stops, time, and airline.</h2>
+            <p>Use this page for realistic result selection, filter testing, fare locking, and multi-step booking validation.</p>
+          </div>
           <div class="project-mini-strip">
             <span class="project-tag">View details</span>
             <span class="project-tag">Lock price</span>
@@ -46,7 +48,7 @@
           </div>
           <div class="project-field">
             <label for="filter-price">Max Price</label>
-            <input id="filter-price" type="range" min="3000" max="9000" step="100" value="9000" />
+            <input id="filter-price" type="range" min="3000" max="25000" step="100" value="25000" />
             <span id="filter-price-value" class="project-chip"></span>
           </div>
           <div class="project-field">
@@ -62,12 +64,12 @@
             <label for="filter-airline">Preferred Airline</label>
             <select id="filter-airline">
               <option value="all">All airlines</option>
-              <option value="Air India">Air India</option>
-              <option value="IndiGo">IndiGo</option>
-              <option value="Akasa Air">Akasa Air</option>
-              <option value="SpiceJet">SpiceJet</option>
-              <option value="Air India Express">Air India Express</option>
-              <option value="Alliance Air">Alliance Air</option>
+              <option value="Nimbus Air">Nimbus Air</option>
+              <option value="BlueFox Airways">BlueFox Airways</option>
+              <option value="CloudRoute Air">CloudRoute Air</option>
+              <option value="SunTrail Air">SunTrail Air</option>
+              <option value="Nimbus Shuttle">Nimbus Shuttle</option>
+              <option value="OrbitLink Air">OrbitLink Air</option>
             </select>
           </div>
           <button class="project-button ghost" id="clear-filters" type="button">Clear Filters</button>
@@ -76,10 +78,11 @@
 
         <div>
           <div id="project-selection-banner"></div>
+          <p class="project-status project-results-main-status" id="project-results-main-status" aria-live="polite"></p>
           <div id="project-flight-list" class="project-flight-list"></div>
         </div>
       </section>
     </div>
-    <script src="project.js?v=20260612b"></script>
+    <script src="project.js?v=20260613n"></script>
   </body>
 </html>

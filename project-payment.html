@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JCM Travels | Payment</title>
     <link rel="stylesheet" href="shared.css?v=20260612" />
-    <link rel="stylesheet" href="project.css?v=20260612" />
+    <link rel="stylesheet" href="project.css?v=20260613j" />
   </head>
   <body class="project-shell">
     <div class="container">
@@ -23,32 +23,43 @@
         <form id="project-payment-form" class="project-panel project-payment-card">
           <h2 class="project-section-title">Payment Details</h2>
           <div class="project-field">
-            <legend>Payment Method</legend>
+            <legend class="project-required">Payment Method</legend>
             <div class="project-radio-group">
               <label class="project-radio-card"><input type="radio" name="paymentMethod" value="Credit Card" /> Credit Card</label>
               <label class="project-radio-card"><input type="radio" name="paymentMethod" value="Debit Card" /> Debit Card</label>
               <label class="project-radio-card"><input type="radio" name="paymentMethod" value="UPI" /> UPI</label>
             </div>
           </div>
+          <div class="project-payment-mode-note" id="project-payment-mode-note">
+            Select a payment method to continue.
+          </div>
           <div class="project-form-grid">
-            <div class="project-field project-field-wide">
-              <label for="payment-card-name">Cardholder Name</label>
+            <div class="project-field project-field-wide project-card-payment-field">
+              <label class="project-required" for="payment-card-name">Cardholder Name</label>
               <input id="payment-card-name" type="text" placeholder="Enter cardholder name" />
             </div>
-            <div class="project-field project-field-wide">
-              <label for="payment-card-number">Card Number</label>
+            <div class="project-field project-field-wide project-card-payment-field">
+              <label class="project-required" for="payment-card-number">Card Number</label>
               <input id="payment-card-number" type="text" maxlength="16" placeholder="16-digit card number" />
             </div>
-            <div class="project-field">
-              <label for="payment-expiry">Expiry</label>
-              <input id="payment-expiry" type="text" placeholder="MM/YY" />
+            <div class="project-field project-card-payment-field">
+              <label class="project-required" for="payment-expiry">Expiry</label>
+              <input id="payment-expiry" type="text" inputmode="numeric" maxlength="5" placeholder="MM/YY" />
             </div>
-            <div class="project-field">
-              <label for="payment-cvv">CVV</label>
+            <div class="project-field project-card-payment-field">
+              <label class="project-required" for="payment-cvv">CVV</label>
               <input id="payment-cvv" type="password" maxlength="3" placeholder="CVV" />
             </div>
+            <div class="project-field project-field-wide project-upi-payment-field project-hidden">
+              <label class="project-required" for="payment-upi-id">UPI ID</label>
+              <input id="payment-upi-id" type="text" placeholder="name@bank" />
+            </div>
+            <div class="project-field project-field-wide project-upi-payment-field project-hidden">
+              <label class="project-required" for="payment-upi-mobile">UPI Mobile Number</label>
+              <input id="payment-upi-mobile" type="tel" inputmode="numeric" maxlength="10" pattern="[0-9]{10}" placeholder="10-digit mobile number" />
+            </div>
             <div class="project-field project-field-wide">
-              <legend>Refund Plan</legend>
+              <legend class="project-required">Refund Plan</legend>
               <div class="project-radio-group">
                 <label class="project-radio-card"><input type="radio" name="refundPlan" value="refundable" /> Refundable fare</label>
                 <label class="project-radio-card"><input type="radio" name="refundPlan" value="non-refundable" /> Non-refundable saver fare</label>
@@ -71,6 +82,6 @@
         </aside>
       </section>
     </div>
-    <script src="project.js?v=20260612b"></script>
+    <script src="project.js?v=20260613n"></script>
   </body>
 </html>

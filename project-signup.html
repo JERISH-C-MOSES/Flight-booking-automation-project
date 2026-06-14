@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JCM Travels | Sign Up</title>
     <link rel="stylesheet" href="shared.css?v=20260612" />
-    <link rel="stylesheet" href="project.css?v=20260612" />
+    <link rel="stylesheet" href="project.css?v=20260613j" />
   </head>
   <body class="project-shell">
     <div class="container">
@@ -42,17 +42,23 @@
           </div>
           <form id="project-signup-form" class="project-form-grid" novalidate>
             <div class="project-field">
-              <label for="signup-username">Username</label>
+              <label class="project-required" for="signup-username">Username</label>
               <input id="signup-username" type="text" placeholder="Enter username" />
             </div>
             <div class="project-field">
-              <label for="signup-email">Email</label>
+              <label class="project-required" for="signup-email">Email</label>
               <input id="signup-email" type="email" placeholder="Enter email" />
             </div>
             <div class="project-field">
-              <label for="signup-password">Password</label>
+              <label class="project-required" for="signup-password">Password</label>
               <div class="password-field">
-                <input id="signup-password" type="password" placeholder="Create password" />
+                <input
+                  id="signup-password"
+                  type="password"
+                  placeholder="Create password"
+                  pattern="[A-Za-z0-9!@#$%^&*()_+\-=\[\]{};':&quot;\\|,.<>\/?`~]{6,}"
+                  title="Use at least 6 characters. Letters, numbers, and symbols are allowed."
+                />
                 <button
                   class="password-toggle"
                   type="button"
@@ -69,8 +75,15 @@
               </div>
             </div>
             <div class="project-field">
-              <label for="signup-phone">Phone Number</label>
-              <input id="signup-phone" type="tel" placeholder="10-digit phone number" />
+              <label class="project-required" for="signup-phone">Phone Number</label>
+              <input
+                id="signup-phone"
+                type="tel"
+                inputmode="numeric"
+                maxlength="10"
+                pattern="[0-9]{10}"
+                placeholder="10-digit phone number"
+              />
             </div>
             <div class="project-inline">
               <button class="project-button primary" type="submit">Create Account</button>
@@ -81,6 +94,6 @@
         </article>
       </section>
     </div>
-    <script src="project.js?v=20260612b"></script>
+    <script src="project.js?v=20260613n"></script>
   </body>
 </html>

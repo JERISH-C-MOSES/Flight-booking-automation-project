@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JCM Travels | Search Flights</title>
     <link rel="stylesheet" href="shared.css?v=20260612" />
-    <link rel="stylesheet" href="project.css?v=20260612" />
+    <link rel="stylesheet" href="project.css?v=20260613j" />
   </head>
   <body class="project-shell">
     <div class="container">
@@ -21,25 +21,25 @@
           </p>
           <div class="project-highlights">
             <div class="project-highlight">
-              <strong>Air India</strong>
+              <strong>Nimbus Air</strong>
               <span>full-service routes</span>
             </div>
             <div class="project-highlight">
-              <strong>IndiGo</strong>
+              <strong>BlueFox Airways</strong>
               <span>fast domestic options</span>
             </div>
             <div class="project-highlight">
-              <strong>Akasa + more</strong>
+              <strong>CloudRoute + more</strong>
               <span>multiple airline filters</span>
             </div>
           </div>
           <div class="project-chip-row project-spaced">
-            <span class="project-chip">Air India</span>
-            <span class="project-chip">IndiGo</span>
-            <span class="project-chip">Akasa Air</span>
-            <span class="project-chip">SpiceJet</span>
-            <span class="project-chip">Air India Express</span>
-            <span class="project-chip">Alliance Air</span>
+            <span class="project-chip">Nimbus Air</span>
+            <span class="project-chip">BlueFox Airways</span>
+            <span class="project-chip">CloudRoute Air</span>
+            <span class="project-chip">SunTrail Air</span>
+            <span class="project-chip">Nimbus Shuttle</span>
+            <span class="project-chip">OrbitLink Air</span>
           </div>
         </article>
 
@@ -57,23 +57,103 @@
             </div>
             <div class="project-form-grid project-search-grid">
               <div class="project-field">
-                <label for="trip-from">From</label>
+                <label class="project-required" for="trip-from">From</label>
                 <select id="trip-from" name="from"></select>
               </div>
               <div class="project-field">
-                <label for="trip-to">To</label>
+                <label class="project-required" for="trip-to">To</label>
                 <select id="trip-to" name="to"></select>
               </div>
               <div class="project-field">
-                <label for="trip-date">Departure Date</label>
-                <input id="trip-date" name="departureDate" type="date" />
+                <label class="project-required" for="trip-date">Departure Date</label>
+                <div class="project-flight-datepicker" id="trip-date-datepicker">
+                  <div class="project-date-input-row">
+                    <input
+                      id="trip-date"
+                      name="departureDate"
+                      type="text"
+                      inputmode="numeric"
+                      pattern="[0-9/]*"
+                      placeholder="dd/mm/yyyy"
+                      autocomplete="off"
+                    />
+                    <button class="project-calendar-icon-button" id="trip-date-calendar-button" type="button" aria-label="Open departure date calendar">
+                      <svg class="project-calendar-glyph" aria-hidden="true" viewBox="0 0 24 24">
+                        <path d="M8 2v4" />
+                        <path d="M16 2v4" />
+                        <path d="M3 10h18" />
+                        <rect x="3" y="4" width="18" height="18" rx="3" />
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="project-calendar-popup project-hidden" id="trip-date-calendar" aria-label="Departure date calendar">
+                    <div class="project-calendar-header">
+                      <button class="project-calendar-nav" id="trip-date-calendar-prev" type="button" aria-label="Previous month">&lt;</button>
+                      <div class="project-calendar-title">
+                        <span id="trip-date-calendar-month">June</span>
+                        <select id="trip-date-calendar-year" aria-label="Select departure year"></select>
+                      </div>
+                      <button class="project-calendar-nav" id="trip-date-calendar-next" type="button" aria-label="Next month">&gt;</button>
+                    </div>
+                    <div class="project-calendar-weekdays" aria-hidden="true">
+                      <span>Su</span>
+                      <span>Mo</span>
+                      <span>Tu</span>
+                      <span>We</span>
+                      <span>Th</span>
+                      <span>Fr</span>
+                      <span>Sa</span>
+                    </div>
+                    <div class="project-calendar-grid" id="trip-date-calendar-body"></div>
+                  </div>
+                </div>
               </div>
               <div class="project-field project-hidden" id="trip-return-wrap">
-                <label for="trip-return-date">Return Date</label>
-                <input id="trip-return-date" name="returnDate" type="date" />
+                <label class="project-required" for="trip-return-date">Return Date</label>
+                <div class="project-flight-datepicker" id="trip-return-date-datepicker">
+                  <div class="project-date-input-row">
+                    <input
+                      id="trip-return-date"
+                      name="returnDate"
+                      type="text"
+                      inputmode="numeric"
+                      pattern="[0-9/]*"
+                      placeholder="dd/mm/yyyy"
+                      autocomplete="off"
+                    />
+                    <button class="project-calendar-icon-button" id="trip-return-date-calendar-button" type="button" aria-label="Open return date calendar">
+                      <svg class="project-calendar-glyph" aria-hidden="true" viewBox="0 0 24 24">
+                        <path d="M8 2v4" />
+                        <path d="M16 2v4" />
+                        <path d="M3 10h18" />
+                        <rect x="3" y="4" width="18" height="18" rx="3" />
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="project-calendar-popup project-hidden" id="trip-return-date-calendar" aria-label="Return date calendar">
+                    <div class="project-calendar-header">
+                      <button class="project-calendar-nav" id="trip-return-date-calendar-prev" type="button" aria-label="Previous month">&lt;</button>
+                      <div class="project-calendar-title">
+                        <span id="trip-return-date-calendar-month">June</span>
+                        <select id="trip-return-date-calendar-year" aria-label="Select return year"></select>
+                      </div>
+                      <button class="project-calendar-nav" id="trip-return-date-calendar-next" type="button" aria-label="Next month">&gt;</button>
+                    </div>
+                    <div class="project-calendar-weekdays" aria-hidden="true">
+                      <span>Su</span>
+                      <span>Mo</span>
+                      <span>Tu</span>
+                      <span>We</span>
+                      <span>Th</span>
+                      <span>Fr</span>
+                      <span>Sa</span>
+                    </div>
+                    <div class="project-calendar-grid" id="trip-return-date-calendar-body"></div>
+                  </div>
+                </div>
               </div>
               <div class="project-field">
-                <label for="trip-travellers">Travellers</label>
+                <label class="project-required" for="trip-travellers">Travellers</label>
                 <select id="trip-travellers" name="travellers">
                   <option value="1">1 Traveller</option>
                   <option value="2">2 Travellers</option>
@@ -82,7 +162,7 @@
                 </select>
               </div>
               <div class="project-field project-search-wide">
-                <label for="trip-cabin">Cabin Class</label>
+                <label class="project-required" for="trip-cabin">Cabin Class</label>
                 <select id="trip-cabin" name="cabinClass">
                   <option value="Economy">Economy</option>
                   <option value="Premium Economy">Premium Economy</option>
@@ -99,6 +179,6 @@
         </article>
       </section>
     </div>
-    <script src="project.js?v=20260612b"></script>
+    <script src="project.js?v=20260613n"></script>
   </body>
 </html>

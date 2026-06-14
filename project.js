@@ -42,9 +42,9 @@ const cities = [
 
 const flights = [
   {
-    id: "FL-AI-201",
-    airline: "Air India",
-    airlineCode: "AI",
+    id: "DX-1001",
+    airline: "Nimbus Air",
+    airlineCode: "NA",
     from: "Mumbai",
     to: "Delhi",
     departTime: "06:10",
@@ -58,9 +58,9 @@ const flights = [
     cabin: "Economy Flex"
   },
   {
-    id: "FL-6E-402",
-    airline: "IndiGo",
-    airlineCode: "6E",
+    id: "DX-1002",
+    airline: "BlueFox Airways",
+    airlineCode: "BF",
     from: "Mumbai",
     to: "Delhi",
     departTime: "09:05",
@@ -74,9 +74,9 @@ const flights = [
     cabin: "Saver"
   },
   {
-    id: "FL-AK-118",
-    airline: "Akasa Air",
-    airlineCode: "QP",
+    id: "DX-1003",
+    airline: "CloudRoute Air",
+    airlineCode: "CR",
     from: "Mumbai",
     to: "Bengaluru",
     departTime: "07:45",
@@ -90,9 +90,9 @@ const flights = [
     cabin: "Economy Lite"
   },
   {
-    id: "FL-SG-907",
-    airline: "SpiceJet",
-    airlineCode: "SG",
+    id: "DX-1004",
+    airline: "SunTrail Air",
+    airlineCode: "ST",
     from: "Delhi",
     to: "Goa",
     departTime: "13:30",
@@ -103,12 +103,12 @@ const flights = [
     baggage: "7kg cabin • 15kg check-in",
     terminal: "T3",
     refundable: false,
-    cabin: "SpiceSaver"
+    cabin: "Value Saver"
   },
   {
-    id: "FL-IX-551",
-    airline: "Air India Express",
-    airlineCode: "IX",
+    id: "DX-1005",
+    airline: "Nimbus Shuttle",
+    airlineCode: "NS",
     from: "Chennai",
     to: "Kochi",
     departTime: "18:20",
@@ -122,9 +122,9 @@ const flights = [
     cabin: "Express Value"
   },
   {
-    id: "FL-9I-311",
-    airline: "Alliance Air",
-    airlineCode: "9I",
+    id: "DX-1006",
+    airline: "OrbitLink Air",
+    airlineCode: "OL",
     from: "Kolkata",
     to: "Jaipur",
     departTime: "10:55",
@@ -138,9 +138,9 @@ const flights = [
     cabin: "Regional Flex"
   },
   {
-    id: "FL-AI-644",
-    airline: "Air India",
-    airlineCode: "AI",
+    id: "DX-1007",
+    airline: "Nimbus Air",
+    airlineCode: "NA",
     from: "Bengaluru",
     to: "Hyderabad",
     departTime: "05:50",
@@ -154,9 +154,9 @@ const flights = [
     cabin: "Economy Flex"
   },
   {
-    id: "FL-6E-770",
-    airline: "IndiGo",
-    airlineCode: "6E",
+    id: "DX-1008",
+    airline: "BlueFox Airways",
+    airlineCode: "BF",
     from: "Delhi",
     to: "Mumbai",
     departTime: "17:40",
@@ -170,9 +170,9 @@ const flights = [
     cabin: "Saver"
   },
   {
-    id: "FL-QP-620",
-    airline: "Akasa Air",
-    airlineCode: "QP",
+    id: "DX-1009",
+    airline: "CloudRoute Air",
+    airlineCode: "CR",
     from: "Delhi",
     to: "Pune",
     departTime: "15:10",
@@ -186,9 +186,9 @@ const flights = [
     cabin: "Economy Lite"
   },
   {
-    id: "FL-SG-114",
-    airline: "SpiceJet",
-    airlineCode: "SG",
+    id: "DX-1010",
+    airline: "SunTrail Air",
+    airlineCode: "ST",
     from: "Mumbai",
     to: "Goa",
     departTime: "20:40",
@@ -199,12 +199,12 @@ const flights = [
     baggage: "7kg cabin • 15kg check-in",
     terminal: "T1",
     refundable: false,
-    cabin: "SpiceSaver"
+    cabin: "Value Saver"
   },
   {
-    id: "FL-IX-812",
-    airline: "Air India Express",
-    airlineCode: "IX",
+    id: "DX-1011",
+    airline: "Nimbus Shuttle",
+    airlineCode: "NS",
     from: "Hyderabad",
     to: "Chennai",
     departTime: "11:45",
@@ -218,9 +218,9 @@ const flights = [
     cabin: "Express Value"
   },
   {
-    id: "FL-9I-401",
-    airline: "Alliance Air",
-    airlineCode: "9I",
+    id: "DX-1012",
+    airline: "OrbitLink Air",
+    airlineCode: "OL",
     from: "Lucknow",
     to: "Delhi",
     departTime: "08:25",
@@ -234,9 +234,9 @@ const flights = [
     cabin: "Regional Flex"
   },
   {
-    id: "FL-AI-226",
-    airline: "Air India",
-    airlineCode: "AI",
+    id: "DX-1013",
+    airline: "Nimbus Air",
+    airlineCode: "NA",
     from: "Mumbai",
     to: "Delhi",
     departTime: "14:20",
@@ -250,9 +250,9 @@ const flights = [
     cabin: "Economy Flex"
   },
   {
-    id: "FL-QP-144",
-    airline: "Akasa Air",
-    airlineCode: "QP",
+    id: "DX-1014",
+    airline: "CloudRoute Air",
+    airlineCode: "CR",
     from: "Mumbai",
     to: "Delhi",
     departTime: "21:15",
@@ -266,9 +266,9 @@ const flights = [
     cabin: "Economy Lite"
   },
   {
-    id: "FL-AI-733",
-    airline: "Air India",
-    airlineCode: "AI",
+    id: "DX-1015",
+    airline: "Nimbus Air",
+    airlineCode: "NA",
     from: "Delhi",
     to: "Mumbai",
     departTime: "06:30",
@@ -282,9 +282,9 @@ const flights = [
     cabin: "Economy Flex"
   },
   {
-    id: "FL-SG-220",
-    airline: "SpiceJet",
-    airlineCode: "SG",
+    id: "DX-1016",
+    airline: "SunTrail Air",
+    airlineCode: "ST",
     from: "Delhi",
     to: "Mumbai",
     departTime: "12:45",
@@ -295,12 +295,12 @@ const flights = [
     baggage: "7kg cabin • 15kg check-in",
     terminal: "T1",
     refundable: false,
-    cabin: "SpiceSaver"
+    cabin: "Value Saver"
   },
   {
-    id: "FL-6E-515",
-    airline: "IndiGo",
-    airlineCode: "6E",
+    id: "DX-1017",
+    airline: "BlueFox Airways",
+    airlineCode: "BF",
     from: "Mumbai",
     to: "Bengaluru",
     departTime: "16:25",
@@ -314,9 +314,9 @@ const flights = [
     cabin: "Saver"
   },
   {
-    id: "FL-AI-889",
-    airline: "Air India",
-    airlineCode: "AI",
+    id: "DX-1018",
+    airline: "Nimbus Air",
+    airlineCode: "NA",
     from: "Bengaluru",
     to: "Mumbai",
     departTime: "08:10",
@@ -330,9 +330,9 @@ const flights = [
     cabin: "Economy Flex"
   },
   {
-    id: "FL-QP-355",
-    airline: "Akasa Air",
-    airlineCode: "QP",
+    id: "DX-1019",
+    airline: "CloudRoute Air",
+    airlineCode: "CR",
     from: "Bengaluru",
     to: "Mumbai",
     departTime: "19:05",
@@ -346,9 +346,9 @@ const flights = [
     cabin: "Economy Lite"
   },
   {
-    id: "FL-6E-932",
-    airline: "IndiGo",
-    airlineCode: "6E",
+    id: "DX-1020",
+    airline: "BlueFox Airways",
+    airlineCode: "BF",
     from: "Bengaluru",
     to: "Hyderabad",
     departTime: "12:05",
@@ -362,9 +362,9 @@ const flights = [
     cabin: "Saver"
   },
   {
-    id: "FL-IX-702",
-    airline: "Air India Express",
-    airlineCode: "IX",
+    id: "DX-1021",
+    airline: "Nimbus Shuttle",
+    airlineCode: "NS",
     from: "Hyderabad",
     to: "Bengaluru",
     departTime: "20:15",
@@ -378,9 +378,9 @@ const flights = [
     cabin: "Express Value"
   },
   {
-    id: "FL-6E-284",
-    airline: "IndiGo",
-    airlineCode: "6E",
+    id: "DX-1022",
+    airline: "BlueFox Airways",
+    airlineCode: "BF",
     from: "Chennai",
     to: "Kochi",
     departTime: "07:35",
@@ -394,9 +394,9 @@ const flights = [
     cabin: "Saver"
   },
   {
-    id: "FL-IX-622",
-    airline: "Air India Express",
-    airlineCode: "IX",
+    id: "DX-1023",
+    airline: "Nimbus Shuttle",
+    airlineCode: "NS",
     from: "Kochi",
     to: "Chennai",
     departTime: "09:40",
@@ -410,9 +410,9 @@ const flights = [
     cabin: "Express Value"
   },
   {
-    id: "FL-SG-512",
-    airline: "SpiceJet",
-    airlineCode: "SG",
+    id: "DX-1024",
+    airline: "SunTrail Air",
+    airlineCode: "ST",
     from: "Mumbai",
     to: "Goa",
     departTime: "07:20",
@@ -423,12 +423,12 @@ const flights = [
     baggage: "7kg cabin • 15kg check-in",
     terminal: "T1",
     refundable: false,
-    cabin: "SpiceSaver"
+    cabin: "Value Saver"
   },
   {
-    id: "FL-9I-208",
-    airline: "Alliance Air",
-    airlineCode: "9I",
+    id: "DX-1025",
+    airline: "OrbitLink Air",
+    airlineCode: "OL",
     from: "Goa",
     to: "Mumbai",
     departTime: "17:25",
@@ -442,9 +442,9 @@ const flights = [
     cabin: "Regional Flex"
   },
   {
-    id: "FL-AI-318",
-    airline: "Air India",
-    airlineCode: "AI",
+    id: "DX-1026",
+    airline: "Nimbus Air",
+    airlineCode: "NA",
     from: "Kolkata",
     to: "Jaipur",
     departTime: "06:50",
@@ -458,9 +458,9 @@ const flights = [
     cabin: "Economy Flex"
   },
   {
-    id: "FL-6E-690",
-    airline: "IndiGo",
-    airlineCode: "6E",
+    id: "DX-1027",
+    airline: "BlueFox Airways",
+    airlineCode: "BF",
     from: "Jaipur",
     to: "Kolkata",
     departTime: "18:35",
@@ -474,9 +474,9 @@ const flights = [
     cabin: "Saver"
   },
   {
-    id: "FL-QP-744",
-    airline: "Akasa Air",
-    airlineCode: "QP",
+    id: "DX-1028",
+    airline: "CloudRoute Air",
+    airlineCode: "CR",
     from: "Delhi",
     to: "Pune",
     departTime: "08:55",
@@ -490,9 +490,9 @@ const flights = [
     cabin: "Economy Lite"
   },
   {
-    id: "FL-AI-556",
-    airline: "Air India",
-    airlineCode: "AI",
+    id: "DX-1029",
+    airline: "Nimbus Air",
+    airlineCode: "NA",
     from: "Pune",
     to: "Delhi",
     departTime: "19:30",
@@ -506,9 +506,9 @@ const flights = [
     cabin: "Economy Flex"
   },
   {
-    id: "FL-9I-765",
-    airline: "Alliance Air",
-    airlineCode: "9I",
+    id: "DX-1030",
+    airline: "OrbitLink Air",
+    airlineCode: "OL",
     from: "Lucknow",
     to: "Delhi",
     departTime: "16:05",
@@ -522,9 +522,9 @@ const flights = [
     cabin: "Regional Flex"
   },
   {
-    id: "FL-6E-188",
-    airline: "IndiGo",
-    airlineCode: "6E",
+    id: "DX-1031",
+    airline: "BlueFox Airways",
+    airlineCode: "BF",
     from: "Delhi",
     to: "Lucknow",
     departTime: "21:00",
@@ -538,9 +538,9 @@ const flights = [
     cabin: "Saver"
   },
   {
-    id: "FL-SG-448",
-    airline: "SpiceJet",
-    airlineCode: "SG",
+    id: "DX-1032",
+    airline: "SunTrail Air",
+    airlineCode: "ST",
     from: "Ahmedabad",
     to: "Goa",
     departTime: "10:30",
@@ -551,12 +551,12 @@ const flights = [
     baggage: "7kg cabin • 15kg check-in",
     terminal: "T1",
     refundable: false,
-    cabin: "SpiceSaver"
+    cabin: "Value Saver"
   },
   {
-    id: "FL-IX-260",
-    airline: "Air India Express",
-    airlineCode: "IX",
+    id: "DX-1033",
+    airline: "Nimbus Shuttle",
+    airlineCode: "NS",
     from: "Goa",
     to: "Ahmedabad",
     departTime: "14:45",
@@ -573,43 +573,43 @@ const flights = [
 
 const airlineProfiles = [
   {
-    airline: "Air India",
-    airlineCode: "AI",
+    airline: "Nimbus Air",
+    airlineCode: "NA",
     baggage: "15kg cabin • 20kg check-in",
     refundable: true,
     cabin: "Economy Flex"
   },
   {
-    airline: "IndiGo",
-    airlineCode: "6E",
+    airline: "BlueFox Airways",
+    airlineCode: "BF",
     baggage: "7kg cabin • 15kg check-in",
     refundable: false,
     cabin: "Saver"
   },
   {
-    airline: "Akasa Air",
-    airlineCode: "QP",
+    airline: "CloudRoute Air",
+    airlineCode: "CR",
     baggage: "7kg cabin • 15kg check-in",
     refundable: false,
     cabin: "Economy Lite"
   },
   {
-    airline: "SpiceJet",
-    airlineCode: "SG",
+    airline: "SunTrail Air",
+    airlineCode: "ST",
     baggage: "7kg cabin • 15kg check-in",
     refundable: false,
-    cabin: "SpiceSaver"
+    cabin: "Value Saver"
   },
   {
-    airline: "Air India Express",
-    airlineCode: "IX",
+    airline: "Nimbus Shuttle",
+    airlineCode: "NS",
     baggage: "7kg cabin • 20kg check-in",
     refundable: true,
     cabin: "Express Value"
   },
   {
-    airline: "Alliance Air",
-    airlineCode: "9I",
+    airline: "OrbitLink Air",
+    airlineCode: "OL",
     baggage: "7kg cabin • 15kg check-in",
     refundable: true,
     cabin: "Regional Flex"
@@ -661,7 +661,7 @@ const generatedFlights = cities
     const price = 3200 + ((index * 370 + route.from.length * 95 + route.to.length * 80) % 5200) + stops * 450;
 
     return {
-      id: `FL-${airline.airlineCode}-G${String(index + 1).padStart(3, "0")}`,
+      id: `DX-${airline.airlineCode}-${String(index + 1).padStart(3, "0")}`,
       airline: airline.airline,
       airlineCode: airline.airlineCode,
       from: route.from,
@@ -736,7 +736,7 @@ const loadSeatInventory = async (flightId) => {
 };
 
 const loadUserBookings = async () => {
-  const currentUser = sessionStorage.getItem(projectStorageKeys.currentUser);
+  const currentUser = getCurrentProjectUser();
   currentUserBookings = getBookings().filter((booking) => !currentUser || booking.ownerUsername === currentUser);
 };
 
@@ -761,6 +761,27 @@ const setLocalJson = (key, value) => {
   localStorage.setItem(key, JSON.stringify(value));
 };
 
+const getCurrentProjectUser = () =>
+  sessionStorage.getItem(projectStorageKeys.currentUser) || localStorage.getItem(projectStorageKeys.currentUser) || "";
+
+const isProjectAuthenticated = () =>
+  sessionStorage.getItem(projectStorageKeys.auth) === "true" ||
+  localStorage.getItem(projectStorageKeys.auth) === "true";
+
+const setProjectAuthSession = (username) => {
+  sessionStorage.setItem(projectStorageKeys.auth, "true");
+  sessionStorage.setItem(projectStorageKeys.currentUser, username);
+  localStorage.setItem(projectStorageKeys.auth, "true");
+  localStorage.setItem(projectStorageKeys.currentUser, username);
+};
+
+const clearProjectAuthSession = () => {
+  sessionStorage.removeItem(projectStorageKeys.auth);
+  sessionStorage.removeItem(projectStorageKeys.currentUser);
+  localStorage.removeItem(projectStorageKeys.auth);
+  localStorage.removeItem(projectStorageKeys.currentUser);
+};
+
 const setProjectStatus = (id, text, level = "") => {
   const node = document.getElementById(id);
   if (!node) {
@@ -783,22 +804,39 @@ const requireProjectAuth = async () => {
     return true;
   }
 
-  if (sessionStorage.getItem(projectStorageKeys.auth) === "true") {
+  if (isProjectAuthenticated()) {
+    const username = getCurrentProjectUser();
+    if (username) {
+      setProjectAuthSession(username);
+    } else {
+      sessionStorage.setItem(projectStorageKeys.auth, "true");
+    }
     return true;
   }
 
-  sessionStorage.removeItem(projectStorageKeys.auth);
+  clearProjectAuthSession();
   window.location.href = "project-login.html";
   return false;
 };
 
 const projectLogout = () => {
-  sessionStorage.removeItem(projectStorageKeys.auth);
-  sessionStorage.removeItem(projectStorageKeys.currentUser);
+  clearProjectAuthSession();
   window.location.href = "project-login.html";
 };
 
 const formatCurrency = (value) => `Rs ${Number(value).toLocaleString("en-IN")}`;
+
+const cabinClassMultipliers = {
+  Economy: 1,
+  "Premium Economy": 1.45,
+  Business: 2.35
+};
+
+const getCabinClassMultiplier = (cabinClass = getProjectSearch().cabinClass) =>
+  cabinClassMultipliers[cabinClass] || cabinClassMultipliers.Economy;
+
+const getFlightFare = (flight, cabinClass = getProjectSearch().cabinClass) =>
+  Math.round((flight?.price || 0) * getCabinClassMultiplier(cabinClass) / 10) * 10;
 
 const formatDate = (value) => {
   if (!value) {
@@ -812,6 +850,50 @@ const formatDate = (value) => {
 };
 
 const getToday = () => new Date().toISOString().split("T")[0];
+
+const projectCalendarMonths = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December"
+];
+
+const isoToProjectInputDate = (value) => {
+  if (!value || !/^\d{4}-\d{2}-\d{2}$/.test(value)) {
+    return "";
+  }
+  const [year, month, day] = value.split("-");
+  return `${day}/${month}/${year}`;
+};
+
+const projectInputDateToIso = (value) => {
+  const match = String(value || "").trim().match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
+  if (!match) {
+    return "";
+  }
+  const [, day, month, year] = match;
+  const date = new Date(Number(year), Number(month) - 1, Number(day));
+  const isValid =
+    date.getFullYear() === Number(year) &&
+    date.getMonth() === Number(month) - 1 &&
+    date.getDate() === Number(day);
+
+  return isValid ? `${year}-${month}-${day}` : "";
+};
+
+const maskProjectDateInput = (input) => {
+  const digits = input.value.replace(/\D/g, "").slice(0, 8);
+  const parts = [digits.slice(0, 2), digits.slice(2, 4), digits.slice(4, 8)].filter(Boolean);
+  input.value = parts.join("/");
+};
 
 const getProjectSearch = () =>
   getJson(projectStorageKeys.search, {
@@ -851,7 +933,9 @@ const getSeatSelection = () => getJson(projectStorageKeys.seats, []);
 const getPaymentData = () => getJson(projectStorageKeys.payment);
 const getBookings = () => getJson(projectStorageKeys.bookings, []);
 
-const getFlightById = (flightId) => projectCatalog.flights.find((flight) => flight.id === flightId);
+const getFlightById = (flightId) => {
+  return projectCatalog.flights.find((flight) => flight.id === flightId);
+};
 
 const buildTopbar = (activePage) => {
   const topbar = document.getElementById("project-topbar");
@@ -902,6 +986,10 @@ const initProjectLogin = () => {
   }
   initPasswordToggles();
 
+  form.addEventListener("reset", () => {
+    setProjectStatus("project-login-status", "");
+  });
+
   form.addEventListener("submit", (event) => {
     event.preventDefault();
     const username = document.getElementById("project-username").value.trim();
@@ -927,8 +1015,7 @@ const initProjectLogin = () => {
     );
 
     if (user) {
-      sessionStorage.setItem(projectStorageKeys.auth, "true");
-      sessionStorage.setItem(projectStorageKeys.currentUser, user.username);
+      setProjectAuthSession(user.username);
       trackProjectEvent("login_success", user.username);
       setProjectStatus("project-login-status", "Login successful. Opening travel workspace...", "success");
       window.setTimeout(() => {
@@ -949,6 +1036,15 @@ const initProjectSignup = () => {
   }
   initPasswordToggles();
 
+  const phoneField = document.getElementById("signup-phone");
+  phoneField?.addEventListener("input", () => {
+    phoneField.value = phoneField.value.replace(/\D/g, "").slice(0, 10);
+  });
+
+  form.addEventListener("reset", () => {
+    setProjectStatus("project-signup-status", "");
+  });
+
   form.addEventListener("submit", (event) => {
     event.preventDefault();
 
@@ -967,6 +1063,10 @@ const initProjectSignup = () => {
     }
     if (password.length < 6) {
       setProjectStatus("project-signup-status", "Password must contain at least 6 characters.", "danger");
+      return;
+    }
+    if (!/^[A-Za-z0-9!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?`~]+$/.test(password)) {
+      setProjectStatus("project-signup-status", "Password can use only letters, numbers, and symbols. Spaces are not allowed.", "danger");
       return;
     }
     if (!/^\d{10}$/.test(phone)) {
@@ -1040,6 +1140,200 @@ const validateSearch = (search) => {
   return "";
 };
 
+const setupProjectFlightDatePicker = ({ inputId, calendarId, bodyId, previousId, nextId, triggerId, getMinDate = getToday }) => {
+  const dateInput = document.getElementById(inputId);
+  const calendar = document.getElementById(calendarId);
+  const calendarMonthLabel = document.getElementById(`${calendarId}-month`);
+  const calendarYearSelect = document.getElementById(`${calendarId}-year`);
+  const calendarBody = document.getElementById(bodyId);
+  const previousButton = document.getElementById(previousId);
+  const nextButton = document.getElementById(nextId);
+  const triggerButton = document.getElementById(triggerId);
+  const today = new Date();
+  const todayDay = today.getDate();
+  const todayMonth = today.getMonth();
+  const todayYear = today.getFullYear();
+  let visibleMonth = todayMonth;
+  let visibleYear = todayYear;
+
+  if (!dateInput || !calendar || !calendarMonthLabel || !calendarYearSelect || !calendarBody) {
+    return;
+  }
+
+  const syncVisibleDateFromInput = () => {
+    const isoDate = projectInputDateToIso(dateInput.value);
+    if (!isoDate) {
+      return;
+    }
+    const [year, month] = isoDate.split("-").map(Number);
+    visibleYear = year;
+    visibleMonth = month - 1;
+  };
+
+  const positionCalendar = () => {
+    const rect = dateInput.getBoundingClientRect();
+    const popupWidth = Math.min(280, window.innerWidth - 24);
+    const left = Math.min(Math.max(12, rect.left), window.innerWidth - popupWidth - 12);
+    const top = Math.min(rect.bottom + 6, window.innerHeight - calendar.offsetHeight - 12);
+    calendar.style.left = `${left}px`;
+    calendar.style.top = `${Math.max(12, top)}px`;
+    calendar.style.width = `${popupWidth}px`;
+  };
+
+  const getMinimumDateParts = () => {
+    const minDate = getMinDate() || getToday();
+    const [year, month, day] = minDate.split("-").map(Number);
+    return { year, month: month - 1, day };
+  };
+
+  const isBeforeMinimumDate = (year, month, day) => {
+    const minimum = getMinimumDateParts();
+    if (year !== minimum.year) {
+      return year < minimum.year;
+    }
+    if (month !== minimum.month) {
+      return month < minimum.month;
+    }
+    return day < minimum.day;
+  };
+
+  const isBeforeMinimumMonth = (year, month) => {
+    const minimum = getMinimumDateParts();
+    return year < minimum.year || (year === minimum.year && month < minimum.month);
+  };
+
+  const clampVisibleMonth = () => {
+    const minimum = getMinimumDateParts();
+    if (isBeforeMinimumMonth(visibleYear, visibleMonth)) {
+      visibleYear = minimum.year;
+      visibleMonth = minimum.month;
+    }
+  };
+
+  calendarYearSelect.innerHTML = "";
+  for (let year = todayYear; year <= todayYear + 20; year += 1) {
+    const option = document.createElement("option");
+    option.value = String(year);
+    option.textContent = String(year);
+    calendarYearSelect.appendChild(option);
+  }
+
+  const renderCalendar = () => {
+    clampVisibleMonth();
+    const firstDay = new Date(visibleYear, visibleMonth, 1).getDay();
+    const daysInMonth = new Date(visibleYear, visibleMonth + 1, 0).getDate();
+    calendarMonthLabel.textContent = projectCalendarMonths[visibleMonth];
+    calendarYearSelect.value = String(visibleYear);
+    if (previousButton) {
+      previousButton.disabled = isBeforeMinimumMonth(visibleYear, visibleMonth - 1);
+    }
+    calendarBody.innerHTML = "";
+
+    Array.from({ length: 42 }, (_, index) => {
+      const day = index - firstDay + 1;
+      if (day < 1 || day > daysInMonth) {
+        const blank = document.createElement("span");
+        blank.className = "project-calendar-empty";
+        calendarBody.appendChild(blank);
+        return;
+      }
+
+      const dayButton = document.createElement("button");
+      dayButton.type = "button";
+      dayButton.className = "project-calendar-day";
+      dayButton.textContent = String(day);
+      if (isBeforeMinimumDate(visibleYear, visibleMonth, day)) {
+        dayButton.classList.add("disabled");
+        dayButton.disabled = true;
+      }
+      if (visibleYear === todayYear && visibleMonth === todayMonth && day === todayDay) {
+        dayButton.classList.add("highlighted");
+      }
+
+      dayButton.addEventListener("mousedown", (event) => event.preventDefault());
+      dayButton.addEventListener("click", () => {
+        const monthValue = String(visibleMonth + 1).padStart(2, "0");
+        const dayValue = String(day).padStart(2, "0");
+        dateInput.value = `${dayValue}/${monthValue}/${visibleYear}`;
+        dateInput.dispatchEvent(new Event("change", { bubbles: true }));
+        calendar.classList.add("project-hidden");
+      });
+
+      calendarBody.appendChild(dayButton);
+    });
+  };
+
+  const openCalendar = () => {
+    syncVisibleDateFromInput();
+    renderCalendar();
+    calendar.classList.remove("project-hidden");
+    positionCalendar();
+  };
+
+  const changeMonth = (step) => {
+    if (step < 0 && isBeforeMinimumMonth(visibleYear, visibleMonth - 1)) {
+      return;
+    }
+    visibleMonth += step;
+    if (visibleMonth < 0) {
+      visibleMonth = 11;
+      visibleYear -= 1;
+    }
+    if (visibleMonth > 11) {
+      visibleMonth = 0;
+      visibleYear += 1;
+    }
+    renderCalendar();
+    positionCalendar();
+  };
+
+  triggerButton?.addEventListener("mousedown", (event) => event.preventDefault());
+  previousButton?.addEventListener("mousedown", (event) => event.preventDefault());
+  nextButton?.addEventListener("mousedown", (event) => event.preventDefault());
+  dateInput.addEventListener("input", () => maskProjectDateInput(dateInput));
+  dateInput.addEventListener("focus", openCalendar);
+  dateInput.addEventListener("click", openCalendar);
+  dateInput.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      calendar.classList.add("project-hidden");
+      dateInput.blur();
+    }
+  });
+  triggerButton?.addEventListener("click", (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    if (calendar.classList.contains("project-hidden")) {
+      openCalendar();
+    } else {
+      calendar.classList.add("project-hidden");
+    }
+  });
+  previousButton?.addEventListener("click", () => changeMonth(-1));
+  nextButton?.addEventListener("click", () => changeMonth(1));
+  calendarYearSelect.addEventListener("change", () => {
+    visibleYear = Number(calendarYearSelect.value);
+    renderCalendar();
+    positionCalendar();
+  });
+  window.addEventListener("resize", () => {
+    if (!calendar.classList.contains("project-hidden")) {
+      positionCalendar();
+    }
+  });
+  window.addEventListener("scroll", () => {
+    if (!calendar.classList.contains("project-hidden")) {
+      positionCalendar();
+    }
+  });
+  document.addEventListener("pointerdown", (event) => {
+    const clickedTrigger = triggerButton?.contains(event.target);
+    if (!calendar.contains(event.target) && event.target !== dateInput && !clickedTrigger) {
+      calendar.classList.add("project-hidden");
+    }
+  });
+};
+
 const handleSearchSubmit = (formId, statusId) => {
   const form = document.getElementById(formId);
   if (!form) {
@@ -1059,13 +1353,29 @@ const handleSearchSubmit = (formId, statusId) => {
   populateCityOptions(fromField, saved.from);
   populateCityOptions(toField, saved.to);
   if (dateField) {
-    dateField.min = getToday();
-    dateField.value = saved.departureDate;
+    dateField.value = isoToProjectInputDate(saved.departureDate);
   }
   if (returnDateField) {
-    returnDateField.min = saved.departureDate || getToday();
-    returnDateField.value = saved.returnDate || "";
+    returnDateField.value = isoToProjectInputDate(saved.returnDate);
   }
+  setupProjectFlightDatePicker({
+    inputId: "trip-date",
+    calendarId: "trip-date-calendar",
+    bodyId: "trip-date-calendar-body",
+    previousId: "trip-date-calendar-prev",
+    nextId: "trip-date-calendar-next",
+    triggerId: "trip-date-calendar-button",
+    getMinDate: getToday
+  });
+  setupProjectFlightDatePicker({
+    inputId: "trip-return-date",
+    calendarId: "trip-return-date-calendar",
+    bodyId: "trip-return-date-calendar-body",
+    previousId: "trip-return-date-calendar-prev",
+    nextId: "trip-return-date-calendar-next",
+    triggerId: "trip-return-date-calendar-button",
+    getMinDate: () => projectInputDateToIso(dateField?.value) || getToday()
+  });
   if (travellersField) {
     travellersField.value = saved.travellers;
   }
@@ -1082,7 +1392,6 @@ const handleSearchSubmit = (formId, statusId) => {
       returnWrap.classList.toggle("project-hidden", tripType !== "round-trip");
     }
     if (returnDateField) {
-      returnDateField.min = dateField.value || getToday();
       if (tripType !== "round-trip") {
         returnDateField.value = "";
       }
@@ -1090,8 +1399,10 @@ const handleSearchSubmit = (formId, statusId) => {
   };
 
   dateField?.addEventListener("change", () => {
-    if (returnDateField) {
-      returnDateField.min = dateField.value || getToday();
+    const departureDate = projectInputDateToIso(dateField.value);
+    const returnDate = projectInputDateToIso(returnDateField?.value);
+    if (returnDateField && departureDate && returnDate && returnDate < departureDate) {
+      returnDateField.value = "";
     }
   });
   tripTypeInputs.forEach((input) => input.addEventListener("change", syncTripType));
@@ -1099,12 +1410,25 @@ const handleSearchSubmit = (formId, statusId) => {
 
   form.addEventListener("submit", (event) => {
     event.preventDefault();
+    const departureDate = projectInputDateToIso(dateField.value);
+    const returnDate = projectInputDateToIso(returnDateField?.value);
+
+    if (dateField.value.trim() && !departureDate) {
+      setProjectStatus(statusId, "Enter departure date as dd/mm/yyyy.", "danger");
+      return;
+    }
+
+    if (returnDateField?.value.trim() && !returnDate) {
+      setProjectStatus(statusId, "Enter return date as dd/mm/yyyy.", "danger");
+      return;
+    }
+
     const search = {
       tripType: document.querySelector('input[name="tripType"]:checked')?.value || "one-way",
       from: fromField.value,
       to: toField.value,
-      departureDate: dateField.value,
-      returnDate: returnDateField?.value || "",
+      departureDate,
+      returnDate,
       travellers: Number(travellersField.value),
       cabinClass: cabinField.value
     };
@@ -1116,6 +1440,7 @@ const handleSearchSubmit = (formId, statusId) => {
     }
 
     setSessionJson(projectStorageKeys.search, search);
+    sessionStorage.removeItem(projectStorageKeys.lastBooking);
     sessionStorage.removeItem(projectStorageKeys.selectedFlight);
     sessionStorage.removeItem(projectStorageKeys.passengers);
     sessionStorage.removeItem(projectStorageKeys.seats);
@@ -1148,8 +1473,8 @@ const getFilteredFlights = (direction = "outbound") => {
     result = result.filter((flight) => flight.stops === 1);
   }
 
-  const maxPrice = Number(document.getElementById("filter-price")?.value || 9000);
-  result = result.filter((flight) => flight.price <= maxPrice);
+  const maxPrice = Number(document.getElementById("filter-price")?.value || 25000);
+  result = result.filter((flight) => getFlightFare(flight, search.cabinClass) <= maxPrice);
 
   const departureSlot = document.getElementById("filter-departure")?.value || "all";
   if (departureSlot !== "all") {
@@ -1178,6 +1503,7 @@ const getTripSelection = () =>
   };
 
 const setTripSelection = (selection) => {
+  sessionStorage.removeItem(projectStorageKeys.lastBooking);
   setSessionJson(projectStorageKeys.selectedFlight, {
     ...getTripSelection(),
     ...selection
@@ -1191,7 +1517,7 @@ const trackProjectEvent = (type, details = "") => {
     timestamp: new Date().toISOString(),
     app: "flight-project",
     type,
-    username: sessionStorage.getItem(projectStorageKeys.currentUser) || "guest",
+    username: getCurrentProjectUser() || "guest",
     details
   });
   setLocalJson(projectStorageKeys.events, events.slice(0, 100));
@@ -1222,8 +1548,8 @@ const renderSelectionBanner = () => {
         <div>
           <strong>Round-trip selection</strong>
           <div class="project-helper">
-            Onward: ${outbound ? `${outbound.airline} ${outbound.departTime}` : "Not selected"} |
-            Return: ${returning ? `${returning.airline} ${returning.departTime}` : "Not selected"}
+            Onward: ${outbound ? `${outbound.airline} ${outbound.departTime} • ${formatCurrency(getFlightFare(outbound, search.cabinClass))}` : "Not selected"} |
+            Return: ${returning ? `${returning.airline} ${returning.departTime} • ${formatCurrency(getFlightFare(returning, search.cabinClass))}` : "Not selected"}
           </div>
         </div>
         <div class="project-flight-actions">
@@ -1257,14 +1583,18 @@ const renderFlights = () => {
     return;
   }
 
-  const renderFlightCard = (flight, direction) => `
+  const renderFlightCard = (flight, direction) => {
+    const fare = getFlightFare(flight, search.cabinClass);
+    const selectedFlightId = direction === "return" ? selection.returnFlightId : selection.outboundFlightId;
+    const isPriceLocked = selection.action === "lock-price" && selectedFlightId === flight.id;
+    return `
         <article class="project-flight-card">
           <div class="project-flight-top">
             <div class="project-airline">
               <div class="project-airline-mark">${flight.airlineCode}</div>
               <div class="project-airline-copy">
                 <strong>${flight.airline}</strong>
-                <span>${flight.id} • ${flight.cabin}</span>
+                <span>${flight.id} • ${search.cabinClass}</span>
               </div>
             </div>
             <div class="project-route-line">
@@ -1279,7 +1609,7 @@ const renderFlights = () => {
               </div>
             </div>
             <div class="project-price">
-              <strong>${formatCurrency(flight.price)}</strong>
+              <strong>${formatCurrency(fare)}</strong>
               <span>${flight.duration} • ${flight.stops === 0 ? "Non-stop" : "1 stop"}</span>
             </div>
           </div>
@@ -1291,16 +1621,16 @@ const renderFlights = () => {
             </div>
             <div class="project-flight-actions">
               <button class="project-button secondary small" type="button" data-flight-details="${flight.id}">View details</button>
-              <button class="project-button ghost small" type="button" data-flight-lock="${flight.id}" data-direction="${direction}">Lock price</button>
+              <button class="project-button ghost small" type="button" data-flight-lock="${flight.id}" data-direction="${direction}">${isPriceLocked ? "Unlock price" : "Lock price"}</button>
               ${
                 search.tripType === "round-trip"
                   ? `<button class="project-button warm small" type="button" data-flight-select="${flight.id}" data-direction="${direction}">${
                       direction === "return"
                         ? selection.returnFlightId === flight.id
-                          ? "Return selected"
+                          ? "Selected"
                           : "Select return"
                         : selection.outboundFlightId === flight.id
-                          ? "Onward selected"
+                          ? "Selected"
                           : "Select onward"
                     }</button>`
                   : `<button class="project-button warm small" type="button" data-flight-book="${flight.id}">Book now</button>`
@@ -1316,6 +1646,7 @@ const renderFlights = () => {
           </div>
         </article>
       `;
+  };
 
   const outboundSection = outboundFlights.length
     ? `
@@ -1335,7 +1666,7 @@ const renderFlights = () => {
       ? returnFlights.length
         ? `
       <section class="project-flight-list-section">
-        <div class="project-meta-row">
+        <div class="project-meta-row project-meta-row-plain">
           <strong>Return flights</strong>
           <span>${search.to} to ${search.from}</span>
         </div>
@@ -1346,7 +1677,10 @@ const renderFlights = () => {
         : `<div class="project-empty">No return flights matched your filters.</div>`
       : "";
 
-  list.innerHTML = `${outboundSection}${returnSection}`;
+  list.innerHTML =
+    search.tripType === "round-trip"
+      ? `<div class="project-roundtrip-results">${outboundSection}${returnSection}</div>`
+      : `${outboundSection}`;
   renderSelectionBanner();
 
   list.querySelectorAll("[data-flight-details]").forEach((button) => {
@@ -1358,23 +1692,46 @@ const renderFlights = () => {
   list.querySelectorAll("[data-flight-lock]").forEach((button) => {
     button.addEventListener("click", () => {
       const flight = getFlightById(button.dataset.flightLock);
+      const direction = button.dataset.direction;
+      const currentSelection = getTripSelection();
+      const selectedFlightId = direction === "return" ? currentSelection.returnFlightId : currentSelection.outboundFlightId;
+      const otherFlightId = direction === "return" ? currentSelection.outboundFlightId : currentSelection.returnFlightId;
+      const isUnlocking = currentSelection.action === "lock-price" && selectedFlightId === flight.id;
+
+      if (isUnlocking) {
+        setTripSelection(
+          direction === "return"
+            ? { returnFlightId: "", action: otherFlightId ? "lock-price" : "" }
+            : { outboundFlightId: "", action: otherFlightId ? "lock-price" : "" }
+        );
+        setProjectStatus(
+          "project-results-main-status",
+          `${flight.airline} ${direction === "return" ? "return" : "onward"} fare unlocked.`,
+          "warning"
+        );
+        trackProjectEvent("fare_unlocked", `${flight.id} | ${direction}`);
+        renderFlights();
+        return;
+      }
+
       setTripSelection(
-        button.dataset.direction === "return"
+        direction === "return"
           ? { returnFlightId: flight.id, action: "lock-price" }
           : { outboundFlightId: flight.id, action: "lock-price" }
       );
       setProjectStatus(
-        "project-results-status",
-        `${flight.airline} ${button.dataset.direction === "return" ? "return" : "onward"} fare locked for 15 minutes at ${formatCurrency(flight.price)}.`,
+        "project-results-main-status",
+        `${flight.airline} ${direction === "return" ? "return" : "onward"} fare locked for 15 minutes at ${formatCurrency(getFlightFare(flight))}.`,
         "warning"
       );
-      trackProjectEvent("fare_locked", `${flight.id} | ${button.dataset.direction}`);
-      renderSelectionBanner();
+      trackProjectEvent("fare_locked", `${flight.id} | ${direction}`);
+      renderFlights();
     });
   });
 
   list.querySelectorAll("[data-flight-book]").forEach((button) => {
     button.addEventListener("click", () => {
+      sessionStorage.removeItem(projectStorageKeys.lastBooking);
       setSessionJson(projectStorageKeys.selectedFlight, {
         outboundFlightId: button.dataset.flightBook,
         returnFlightId: "",
@@ -1393,7 +1750,7 @@ const renderFlights = () => {
           : { outboundFlightId: button.dataset.flightSelect, action: "round-trip" }
       );
       setProjectStatus(
-        "project-results-status",
+        "project-results-main-status",
         `${button.dataset.direction === "return" ? "Return" : "Onward"} flight selected successfully.`,
         "success"
       );
@@ -1405,7 +1762,7 @@ const renderFlights = () => {
 
 const collectResultFilters = () => ({
   stops: document.querySelector('input[name="stops-filter"]:checked')?.value || "all",
-  maxPrice: Number(document.getElementById("filter-price")?.value || 9000),
+  maxPrice: Number(document.getElementById("filter-price")?.value || 25000),
   departureSlot: document.getElementById("filter-departure")?.value || "all",
   airline: document.getElementById("filter-airline")?.value || "all"
 });
@@ -1437,8 +1794,8 @@ const initProjectResults = async () => {
   document.getElementById("filter-airline")?.addEventListener("change", refreshProjectResults);
   document.getElementById("clear-filters")?.addEventListener("click", async () => {
     document.querySelector('input[name="stops-filter"][value="all"]').checked = true;
-    document.getElementById("filter-price").value = 9000;
-    document.getElementById("filter-price-value").textContent = formatCurrency(9000);
+    document.getElementById("filter-price").value = 25000;
+    document.getElementById("filter-price-value").textContent = formatCurrency(25000);
     document.getElementById("filter-departure").value = "all";
     document.getElementById("filter-airline").value = "all";
     await refreshProjectResults();
@@ -1457,12 +1814,13 @@ const renderPassengerForms = () => {
   const savedPassengers = getPassengerData();
   container.innerHTML = Array.from({ length: search.travellers }, (_, index) => {
     const saved = savedPassengers[index] || {};
+    const savedMobile = String(saved.mobile || "").replace(/\D/g, "").slice(0, 10);
     return `
       <section class="project-passenger-block">
         <h3 class="project-section-title">Passenger ${index + 1}</h3>
         <div class="project-form-grid">
           <div class="project-field">
-            <label for="passenger-title-${index}">Title</label>
+            <label class="project-required" for="passenger-title-${index}">Title</label>
             <select id="passenger-title-${index}">
               <option value="">Select title</option>
               <option value="Mr" ${saved.title === "Mr" ? "selected" : ""}>Mr</option>
@@ -1471,19 +1829,19 @@ const renderPassengerForms = () => {
             </select>
           </div>
           <div class="project-field">
-            <label for="passenger-first-${index}">First name</label>
+            <label class="project-required" for="passenger-first-${index}">First name</label>
             <input id="passenger-first-${index}" type="text" value="${saved.firstName || ""}" placeholder="Enter first name" />
           </div>
           <div class="project-field">
-            <label for="passenger-last-${index}">Last name</label>
+            <label class="project-required" for="passenger-last-${index}">Last name</label>
             <input id="passenger-last-${index}" type="text" value="${saved.lastName || ""}" placeholder="Enter last name" />
           </div>
           <div class="project-field">
-            <label for="passenger-age-${index}">Age</label>
+            <label class="project-required" for="passenger-age-${index}">Age</label>
             <input id="passenger-age-${index}" type="number" min="1" max="99" value="${saved.age || ""}" placeholder="Age" />
           </div>
           <div class="project-field">
-            <label for="passenger-gender-${index}">Gender</label>
+            <label class="project-required" for="passenger-gender-${index}">Gender</label>
             <select id="passenger-gender-${index}">
               <option value="">Select gender</option>
               <option value="Male" ${saved.gender === "Male" ? "selected" : ""}>Male</option>
@@ -1492,21 +1850,35 @@ const renderPassengerForms = () => {
             </select>
           </div>
           <div class="project-field">
-            <label for="passenger-mobile-${index}">Mobile</label>
-            <input id="passenger-mobile-${index}" type="tel" value="${saved.mobile || ""}" placeholder="10-digit mobile number" />
+            <label class="project-required" for="passenger-mobile-${index}">Mobile</label>
+            <input
+              id="passenger-mobile-${index}"
+              type="tel"
+              inputmode="numeric"
+              maxlength="10"
+              pattern="[0-9]{10}"
+              value="${savedMobile}"
+              placeholder="10-digit mobile number"
+            />
           </div>
           <div class="project-field">
-            <label for="passenger-email-${index}">Email</label>
+            <label class="project-required" for="passenger-email-${index}">Email</label>
             <input id="passenger-email-${index}" type="email" value="${saved.email || ""}" placeholder="name@email.com" />
           </div>
           <div class="project-field">
-            <label for="passenger-city-${index}">City</label>
+            <label class="project-required" for="passenger-city-${index}">City</label>
             <input id="passenger-city-${index}" type="text" value="${saved.city || ""}" placeholder="City" />
           </div>
         </div>
       </section>
     `;
   }).join("");
+
+  container.querySelectorAll('input[id^="passenger-mobile-"]').forEach((field) => {
+    field.addEventListener("input", () => {
+      field.value = field.value.replace(/\D/g, "").slice(0, 10);
+    });
+  });
 };
 
 const collectPassengerData = () => {
@@ -1577,7 +1949,7 @@ const initProjectPassengers = async () => {
       </div>
       <div class="project-summary-row">
         <strong>Fare selected</strong>
-        <span>${flight.cabin} • ${flight.refundable ? "Refundable" : "Non-refundable"} • ${formatCurrency(flight.price)}</span>
+        <span>${getProjectSearch().cabinClass} • ${formatCurrency(getFlightFare(flight))}</span>
       </div>
       ${
         returnFlight
@@ -1696,14 +2068,19 @@ const renderPaymentSummary = () => {
   }
 
   const travellers = getProjectSearch().travellers;
-  const baseFare = (flight.price + (returnFlight?.price || 0)) * travellers;
+  const outboundFare = getFlightFare(flight);
+  const returnFare = returnFlight ? getFlightFare(returnFlight) : 0;
+  const baseFare = (outboundFare + returnFare) * travellers;
   const convenience = 399;
   const seatCharge = getSeatSelection().length * 250;
   const total = baseFare + convenience + seatCharge;
+  const fareLabel = returnFlight
+    ? `${travellers} x (${formatCurrency(outboundFare)} onward + ${formatCurrency(returnFare)} return)`
+    : `${travellers} x ${formatCurrency(outboundFare)}`;
 
   node.innerHTML = `
     <div class="project-summary-list">
-      <div class="project-summary-row"><strong>Flight fare</strong><span>${travellers} x ${formatCurrency(flight.price)}</span></div>
+      <div class="project-summary-row"><strong>Flight fare</strong><span>${fareLabel}</span></div>
       <div class="project-summary-row"><strong>Seat selection</strong><span>${formatCurrency(seatCharge)}</span></div>
       <div class="project-summary-row"><strong>Convenience fee</strong><span>${formatCurrency(convenience)}</span></div>
     </div>
@@ -1714,6 +2091,66 @@ const renderPaymentSummary = () => {
       </div>
     </div>
   `;
+};
+
+const initPaymentMethodFields = () => {
+  const methodInputs = Array.from(document.querySelectorAll('input[name="paymentMethod"]'));
+  const cardFields = Array.from(document.querySelectorAll(".project-card-payment-field"));
+  const upiFields = Array.from(document.querySelectorAll(".project-upi-payment-field"));
+  const note = document.getElementById("project-payment-mode-note");
+  const cardNumberField = document.getElementById("payment-card-number");
+  const expiryField = document.getElementById("payment-expiry");
+  const cvvField = document.getElementById("payment-cvv");
+  const upiMobileField = document.getElementById("payment-upi-mobile");
+
+  const syncPaymentFields = () => {
+    const method = document.querySelector('input[name="paymentMethod"]:checked')?.value || "";
+    const isUpi = method === "UPI";
+    cardFields.forEach((field) => field.classList.toggle("project-hidden", isUpi));
+    upiFields.forEach((field) => field.classList.toggle("project-hidden", !isUpi));
+
+    if (note) {
+      if (method === "Credit Card") {
+        note.textContent = "Credit card payment requires cardholder name, 16-digit card number, expiry, and CVV.";
+      } else if (method === "Debit Card") {
+        note.textContent = "Debit card payment requires cardholder name, 16-digit debit card number, expiry, and CVV.";
+      } else if (method === "UPI") {
+        note.textContent = "UPI payment requires a valid UPI ID and a 10-digit mobile number.";
+      } else {
+        note.textContent = "Select a payment method to continue.";
+      }
+    }
+  };
+
+  cardNumberField?.addEventListener("input", () => {
+    cardNumberField.value = cardNumberField.value.replace(/\D/g, "").slice(0, 16);
+  });
+  expiryField?.addEventListener("input", () => {
+    const digits = expiryField.value.replace(/\D/g, "").slice(0, 4);
+    expiryField.value = digits.length > 2 ? `${digits.slice(0, 2)}/${digits.slice(2)}` : digits;
+  });
+  cvvField?.addEventListener("input", () => {
+    cvvField.value = cvvField.value.replace(/\D/g, "").slice(0, 3);
+  });
+  upiMobileField?.addEventListener("input", () => {
+    upiMobileField.value = upiMobileField.value.replace(/\D/g, "").slice(0, 10);
+  });
+  methodInputs.forEach((input) => input.addEventListener("change", syncPaymentFields));
+  syncPaymentFields();
+};
+
+const isValidCardExpiry = (expiry) => {
+  const match = expiry.match(/^(0[1-9]|1[0-2])\/(\d{2})$/);
+  if (!match) {
+    return false;
+  }
+
+  const expiryMonth = Number(match[1]);
+  const expiryYear = 2000 + Number(match[2]);
+  const today = new Date();
+  const currentMonth = today.getMonth() + 1;
+  const currentYear = today.getFullYear();
+  return expiryYear > currentYear || (expiryYear === currentYear && expiryMonth >= currentMonth);
 };
 
 const initProjectPayment = async () => {
@@ -1727,6 +2164,7 @@ const initProjectPayment = async () => {
   }
 
   renderPaymentSummary();
+  initPaymentMethodFields();
   const paymentForm = document.getElementById("project-payment-form");
   paymentForm?.addEventListener("submit", (event) => {
     event.preventDefault();
@@ -1735,24 +2173,57 @@ const initProjectPayment = async () => {
     const cardNumber = document.getElementById("payment-card-number").value.trim();
     const expiry = document.getElementById("payment-expiry").value.trim();
     const cvv = document.getElementById("payment-cvv").value.trim();
+    const upiId = document.getElementById("payment-upi-id").value.trim();
+    const upiMobile = document.getElementById("payment-upi-mobile").value.trim();
     const refundPlan = document.querySelector('input[name="refundPlan"]:checked')?.value || "";
 
-    if (!method || !cardName || !cardNumber || !expiry || !cvv || !refundPlan) {
-      setProjectStatus("project-payment-status", "Complete payment method, card fields, and refund selection.", "danger");
-      return;
-    }
-    if (!/^\d{16}$/.test(cardNumber)) {
-      setProjectStatus("project-payment-status", "Card number must be 16 digits.", "danger");
-      return;
-    }
-    if (!/^\d{3}$/.test(cvv)) {
-      setProjectStatus("project-payment-status", "CVV must be 3 digits.", "danger");
+    if (!method) {
+      setProjectStatus("project-payment-status", "Select a payment method.", "danger");
       return;
     }
 
+    if (method === "UPI") {
+      if (!upiId || !upiMobile) {
+        setProjectStatus("project-payment-status", "Enter UPI ID and 10-digit mobile number.", "danger");
+        return;
+      }
+      if (!/^[A-Za-z0-9.\-_]{2,}@[A-Za-z]{2,}$/.test(upiId)) {
+        setProjectStatus("project-payment-status", "Enter a valid UPI ID, for example name@bank.", "danger");
+        return;
+      }
+      if (!/^\d{10}$/.test(upiMobile)) {
+        setProjectStatus("project-payment-status", "UPI mobile number must be 10 digits.", "danger");
+        return;
+      }
+    } else {
+      if (!cardName || !cardNumber || !expiry || !cvv) {
+        setProjectStatus("project-payment-status", "Complete cardholder name, card number, expiry, and CVV.", "danger");
+        return;
+      }
+      if (!/^\d{16}$/.test(cardNumber)) {
+        setProjectStatus("project-payment-status", "Card number must be 16 digits.", "danger");
+        return;
+      }
+      if (!isValidCardExpiry(expiry)) {
+        setProjectStatus("project-payment-status", "Expiry must be a valid future date in MM/YY format.", "danger");
+        return;
+      }
+      if (!/^\d{3}$/.test(cvv)) {
+        setProjectStatus("project-payment-status", "CVV must be 3 digits.", "danger");
+        return;
+      }
+    }
+
+    if (!refundPlan) {
+      setProjectStatus("project-payment-status", "Select a refund plan.", "danger");
+      return;
+    }
+
+    sessionStorage.removeItem(projectStorageKeys.lastBooking);
     setSessionJson(projectStorageKeys.payment, {
       method,
-      cardName,
+      cardName: method === "UPI" ? "" : cardName,
+      upiId: method === "UPI" ? upiId : "",
       refundPlan,
       paidAt: new Date().toISOString()
     });
@@ -1780,13 +2251,13 @@ const createBooking = () => {
   }
 
   const bookingId = `JT${Date.now().toString().slice(-8)}`;
-  const totalAmount = (flight.price + (returnFlight?.price || 0)) * search.travellers + 399 + seats.length * 250;
-  const refundable = payment.refundPlan === "refundable" && flight.refundable;
-  const refundAmount = refundable ? totalAmount - 650 : 0;
+  const totalAmount = (getFlightFare(flight, search.cabinClass) + (returnFlight ? getFlightFare(returnFlight, search.cabinClass) : 0)) * search.travellers + 399 + seats.length * 250;
+  const refundable = payment.refundPlan === "refundable";
+  const refundAmount = refundable ? Math.max(totalAmount - 650, 0) : 0;
 
   const booking = {
     bookingId,
-    ownerUsername: sessionStorage.getItem(projectStorageKeys.currentUser) || PROJECT_USERNAME,
+    ownerUsername: getCurrentProjectUser() || PROJECT_USERNAME,
     outboundFlightId: flight.id,
     returnFlightId: returnFlight?.id || "",
     search,
@@ -1806,6 +2277,15 @@ const createBooking = () => {
   rememberBooking(booking);
   trackProjectEvent("booking_created", bookingId);
   return booking;
+};
+
+const isBookingRefundable = (booking) => booking?.payment?.refundPlan === "refundable" || booking?.refundable === true;
+
+const getBookingRefundAmount = (booking) => {
+  if (!isBookingRefundable(booking)) {
+    return 0;
+  }
+  return booking.refundAmount > 0 ? booking.refundAmount : Math.max((booking.totalAmount || 0) - 650, 0);
 };
 
 const renderConfirmation = () => {
@@ -1844,8 +2324,10 @@ const renderConfirmation = () => {
 
   const refundBox = document.getElementById("project-refund-note");
   if (refundBox) {
-    refundBox.innerHTML = booking.refundable
-      ? `<div class="project-banner">This booking is refundable. Expected refund after cancellation: <strong>${formatCurrency(booking.refundAmount)}</strong>.</div>`
+    const refundable = isBookingRefundable(booking);
+    const refundAmount = getBookingRefundAmount(booking);
+    refundBox.innerHTML = refundable
+      ? `<div class="project-banner">This booking is refundable. Expected refund after cancellation: <strong>${formatCurrency(refundAmount)}</strong>.</div>`
       : `<div class="project-banner">This booking is non-refundable. Cancellation will show zero refund.</div>`;
   }
 };
@@ -1857,8 +2339,12 @@ const cancelBooking = (bookingId) => {
       return booking;
     }
 
+    const refundable = isBookingRefundable(booking);
+    const refundAmount = getBookingRefundAmount(booking);
     return {
       ...booking,
+      refundable,
+      refundAmount,
       status: "Cancelled",
       cancelledAt: new Date().toISOString()
     };
@@ -1890,10 +2376,10 @@ const initProjectConfirmation = async () => {
     }
     setProjectStatus(
       "project-confirmation-status",
-      booking.refundable
-        ? `Booking cancelled. Refund amount ${formatCurrency(booking.refundAmount)} will be processed.`
+      isBookingRefundable(booking)
+        ? `Booking cancelled. Refund amount ${formatCurrency(getBookingRefundAmount(booking))} will be processed.`
         : "Booking cancelled. This fare is non-refundable, so no refund is applicable.",
-      booking.refundable ? "success" : "warning"
+      isBookingRefundable(booking) ? "" : "warning"
     );
   });
 };
@@ -1912,6 +2398,8 @@ const renderManageBookings = () => {
   list.innerHTML = bookings
     .map((booking) => {
       const flight = getFlightById(booking.outboundFlightId);
+      const refundable = isBookingRefundable(booking);
+      const refundAmount = getBookingRefundAmount(booking);
       return `
         <article class="project-manage-card">
           <div class="project-meta-row project-meta-row-plain">
@@ -1924,7 +2412,7 @@ const renderManageBookings = () => {
           <div class="project-summary-list">
             <div class="project-summary-row"><strong>Airline</strong><span>${flight.airline} • ${flight.id}</span></div>
             <div class="project-summary-row"><strong>Travellers</strong><span>${booking.passengers.length} • Seats ${booking.seats.join(", ")}</span></div>
-            <div class="project-summary-row"><strong>Fare policy</strong><span>${booking.refundable ? `Refund ${formatCurrency(booking.refundAmount)}` : "Non-refundable"}</span></div>
+            <div class="project-summary-row"><strong>Fare policy</strong><span>${refundable ? `Refund ${formatCurrency(refundAmount)}` : "Non-refundable"}</span></div>
           </div>
           <div class="project-flight-actions project-card-actions">
             <button class="project-button secondary small" type="button" data-view-booking="${booking.bookingId}">View details</button>
@@ -1933,7 +2421,7 @@ const renderManageBookings = () => {
           <div class="project-details-box project-hidden" id="booking-${booking.bookingId}">
             <p><strong>Passengers:</strong> ${booking.passengers.map((passenger) => `${passenger.firstName} ${passenger.lastName}`).join(", ")}</p>
             <p><strong>Payment:</strong> ${booking.payment.method} • ${booking.payment.refundPlan}</p>
-            <p><strong>Refund status:</strong> ${booking.status === "Cancelled" ? (booking.refundable ? `Refund initiated for ${formatCurrency(booking.refundAmount)}` : "No refund for saver fare") : "Not cancelled yet"}</p>
+            <p><strong>Refund status:</strong> ${booking.status === "Cancelled" ? (refundable ? `Refund initiated for ${formatCurrency(refundAmount)}` : "No refund for saver fare") : "Not cancelled yet"}</p>
           </div>
         </article>
       `;
@@ -1949,12 +2437,14 @@ const renderManageBookings = () => {
   list.querySelectorAll("[data-cancel-booking]").forEach((button) => {
     button.addEventListener("click", () => {
       const booking = cancelBooking(button.dataset.cancelBooking);
+      const refundable = isBookingRefundable(booking);
+      const refundAmount = getBookingRefundAmount(booking);
       setProjectStatus(
         "project-manage-status",
-        booking.refundable
-          ? `Booking ${booking.bookingId} cancelled. Refund ${formatCurrency(booking.refundAmount)} has been initiated.`
+        refundable
+          ? `Booking ${booking.bookingId} cancelled. Refund ${formatCurrency(refundAmount)} has been initiated.`
           : `Booking ${booking.bookingId} cancelled. This fare was non-refundable.`,
-        booking.refundable ? "success" : "warning"
+        refundable ? "" : "warning"
       );
       loadUserBookings().then(renderManageBookings);
     });
